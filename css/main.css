@@ -1062,12 +1062,12 @@ header.header {
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 1160px;
+    width: 60em;
   }
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 73%;
+    width: 60%;
   }
 }
 .site-brand-container {
@@ -1505,12 +1505,12 @@ header.header {
 }
 @media (min-width: 1200px) {
   .footer-inner {
-    width: 1160px;
+    width: 60em;
   }
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 73%;
+    width: 60%;
   }
 }
 .use-motion .footer {
@@ -2370,6 +2370,13 @@ ul.breadcrumb li:last-child {
   border-bottom-color: #111;
   color: #111;
 }
+mjx-container[jax='CHTML'][display='true'],
+.has-jax {
+  overflow: auto hidden;
+}
+mjx-container[display='true'] + br {
+  display: none;
+}
 .use-motion .animated {
   animation-fill-mode: none;
   visibility: inherit;
@@ -2398,12 +2405,12 @@ ul.breadcrumb li:last-child {
 }
 @media (min-width: 1200px) {
   .main {
-    width: 1160px;
+    width: 60em;
   }
 }
 @media (min-width: 1600px) {
   .main {
-    width: 73%;
+    width: 60%;
   }
 }
 @media (max-width: 991px) {
