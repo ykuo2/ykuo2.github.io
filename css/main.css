@@ -1062,12 +1062,12 @@ header.header {
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 60em;
+    width: 55em;
   }
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 60%;
+    width: 55%;
   }
 }
 .site-brand-container {
@@ -1505,12 +1505,12 @@ header.header {
 }
 @media (min-width: 1200px) {
   .footer-inner {
-    width: 60em;
+    width: 55em;
   }
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 60%;
+    width: 55%;
   }
 }
 .use-motion .footer {
@@ -2405,12 +2405,12 @@ mjx-container[display='true'] + br {
 }
 @media (min-width: 1200px) {
   .main {
-    width: 60em;
+    width: 55em;
   }
 }
 @media (min-width: 1600px) {
   .main {
-    width: 60%;
+    width: 55%;
   }
 }
 @media (max-width: 991px) {
@@ -2694,5 +2694,5 @@ mjx-container[display='true'] + br {
   }
 }
 body {
-  background: #ddd;
+  background: #c9c9c9;
 }
