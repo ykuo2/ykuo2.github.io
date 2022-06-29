@@ -60,6 +60,19 @@ https://user-images.githubusercontent.com/37744685/175824383-9053a7c3-39cd-430e-
       </tags>
   </entry>
   <entry>
+    <title>test for tag</title>
+    <url>/2022/20220629-test-for-tag/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>test category1</category>
+      </categories>
+      <tags>
+        <tag>abc</tag>
+        <tag>test1</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>test for modify date</title>
     <url>/2022/20220626-test-for-modify-date/</url>
     <content><![CDATA[
@@ -70,19 +83,6 @@ https://user-images.githubusercontent.com/37744685/175824383-9053a7c3-39cd-430e-
       <tags>
         <tag>test2</tag>
         <tag>test1</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test for tag</title>
-    <url>/2022/20220629-test-for-tag/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>test category1</category>
-      </categories>
-      <tags>
-        <tag>test1</tag>
-        <tag>abc</tag>
       </tags>
   </entry>
 </search>
