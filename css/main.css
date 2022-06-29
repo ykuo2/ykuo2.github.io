@@ -1,3 +1,11 @@
+h1.site-title {
+  font-size: 45px;
+  font-weight: 900;
+}
+p.site-subtitle {
+  font-size: 16px;
+  font-family: serif;
+}
 :root {
   --body-bg-color: #eee;
   --content-bg-color: #fff;
