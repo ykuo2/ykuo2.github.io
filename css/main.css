@@ -1,11 +1,3 @@
-h1.site-title {
-  font-size: 45px;
-  font-weight: 900;
-}
-p.site-subtitle {
-  font-size: 16px;
-  font-family: serif;
-}
 :root {
   --body-bg-color: #eee;
   --content-bg-color: #fff;
@@ -1070,12 +1062,12 @@ header.header {
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 55em;
+    width: 1056px;
   }
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 55%;
+    width: 1056px;
   }
 }
 .site-brand-container {
@@ -1513,12 +1505,12 @@ header.header {
 }
 @media (min-width: 1200px) {
   .footer-inner {
-    width: 55em;
+    width: 1056px;
   }
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 55%;
+    width: 1056px;
   }
 }
 .use-motion .footer {
@@ -2521,12 +2513,12 @@ mjx-container[display='true'] + br {
 }
 @media (min-width: 1200px) {
   .main {
-    width: 55em;
+    width: 1056px;
   }
 }
 @media (min-width: 1600px) {
   .main {
-    width: 55%;
+    width: 1056px;
   }
 }
 @media (max-width: 991px) {
@@ -2811,4 +2803,13 @@ mjx-container[display='true'] + br {
 }
 body {
   background: #c9c9c9;
+}
+.site-title {
+  font-family: monospace, serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+.site-subtitle {
+  font-size: 12px;
+  font-family: monospace, serif;
 }
