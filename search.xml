@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>notice: under construction</title>
+    <url>/2022/20220626-test-post-2/</url>
+    <content><![CDATA[<h1 id="todo">Todo</h1>
+<pre><code>[v] narrow page layout  
+[v] uploading image and adjust size  
+[v] LaTeX  
+[v] Tag page  
+[v] Category page
+[ ] Intro page  ?
+[ ] feedback board
+[ ] SEO</code></pre>
+<h1 id="this-post-is-a-test">This post is a test</h1>
+<h2 id="測試">測試</h2>
+<p><strong>superscript</strong><br />
+af<sub>f12</sub><br />
+test <span class="math display">\[\frac{\sin(x)}{2x}\]</span></p>
+<p>this is <span class="math inline">\(\frac{\sin(x)}{x}\)</span> inline
+math</p>
+<span id="more"></span>
+<p>test for read more</p>
+<p><strong>test for image</strong><br />
+<img src="/images/avatar_penguin.png" /></p>
+<p>td</p>
+<blockquote>
+<p>this is quote<br />
+testing for more quote</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br><span class="line">Note left of Alice: Alice responds</span><br><span class="line">Alice-&gt;Bob: Where have you been?</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>isolated category</category>
+      </categories>
+      <tags>
+        <tag>tag1</tag>
+        <tag>tag2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>under construction</title>
+    <url>/2022/20220627-test-3-for-picture-display/</url>
+    <content><![CDATA[<h2 id="test-method-3-direct-upload">test method 3, direct upload</h2>
+<h3 id="adjust-size-by-percent">adjust size by percent</h3>
+<p><img src="
+https://user-images.githubusercontent.com/37744685/175824383-9053a7c3-39cd-430e-9f46-e9466969e333.png
+" width="50%" height="50%"></p>
+<h3 id="adjust-size-by-absolute-value">adjust size by absolute
+value</h3>
+<p><img src="
+https://user-images.githubusercontent.com/37744685/175824383-9053a7c3-39cd-430e-9f46-e9466969e333.png
+" width="600"></p>
+<h2 id="use-common-location">use common location</h2>
+<p><img src="/images/test-img-common.png" /></p>
+]]></content>
+      <tags>
+        <tag>test3</tag>
+        <tag>test2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test for modify date</title>
+    <url>/2022/20220626-test-for-modify-date/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>test category1</category>
+      </categories>
+      <tags>
+        <tag>test2</tag>
+        <tag>test1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test for tag</title>
+    <url>/2022/20220629-test-for-tag/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>test category1</category>
+      </categories>
+      <tags>
+        <tag>test1</tag>
+        <tag>abc</tag>
+      </tags>
+  </entry>
+</search>
