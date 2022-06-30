@@ -74,6 +74,20 @@
 
   
   <url>
+    <loc>http://ykuo2.github.io/tags/test3/</loc>
+    <lastmod>2022-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://ykuo2.github.io/tags/test2/</loc>
+    <lastmod>2022-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://ykuo2.github.io/tags/tag1/</loc>
     <lastmod>2022-06-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -89,20 +103,6 @@
   
   <url>
     <loc>http://ykuo2.github.io/tags/test1/</loc>
-    <lastmod>2022-06-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/tags/test2/</loc>
-    <lastmod>2022-06-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/tags/test3/</loc>
     <lastmod>2022-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
