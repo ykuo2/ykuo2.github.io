@@ -5,11 +5,8 @@
     <url>/2022/20220627-test-picture-upload/</url>
     <content><![CDATA[<h2 id="typora-auto-directory">typora auto directory</h2>
 <p>automated generate</p>
-<figure>
-<img src="../images/20220627-test-picture-upload/raw-6595063.png"
-alt="raw" />
-<figcaption aria-hidden="true">raw</figcaption>
-</figure>
+<p>by uPic + github</p>
+<p><img src="https://raw.githubusercontent.com/ykuo2/hexo_blog_image/main/uPic/20220622-raw-zPJDwl.png" alt="raw" style="zoom:50%;" /></p>
 <h2 id="test-method-3-direct-upload">test method 3, direct upload</h2>
 <h3 id="adjust-size-by-percent">adjust size by percent</h3>
 <p><img src="
