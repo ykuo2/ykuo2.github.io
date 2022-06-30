@@ -9,8 +9,8 @@
 [v] LaTeX  
 [v] Tag page  
 [v] Category page
-[ ] Intro page  ?
-[ ] feedback board
+[?] Intro page  
+[v] comment board
 [v] SEO</code></pre>
 <h1 id="this-post-is-a-test">This post is a test</h1>
 <h2 id="測試">測試</h2>
@@ -56,7 +56,16 @@ testing for more quote</p>
   <entry>
     <title>test picture upload</title>
     <url>/2022/20220627-test-picture-upload/</url>
-    <content><![CDATA[<h2 id="test-method-3-direct-upload">test method 3, direct upload</h2>
+    <content><![CDATA[<h2 id="typora-auto-directory">typora auto directory</h2>
+<p>automated generate</p>
+<figure>
+<img
+src="/Users/yukuo/Desktop/hexo_blog/source/images/20220627-test-picture-upload/raw.png"
+alt="raw" />
+<figcaption aria-hidden="true">raw</figcaption>
+</figure>
+<p>very convenient</p>
+<h2 id="test-method-3-direct-upload">test method 3, direct upload</h2>
 <h3 id="adjust-size-by-percent">adjust size by percent</h3>
 <p><img src="
 https://user-images.githubusercontent.com/37744685/175824383-9053a7c3-39cd-430e-9f46-e9466969e333.png
