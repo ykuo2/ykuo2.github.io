@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ykuo2.github.io/2022/20220627-test-picture-upload/</loc>
+    <loc>http://ykuo2.github.io/2022/20220626-under-construction-notice/</loc>
     
     <lastmod>2022-06-30</lastmod>
     
@@ -12,15 +12,6 @@
   
   <url>
     <loc>http://ykuo2.github.io/about/index.html</loc>
-    
-    <lastmod>2022-06-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/2022/20220626-under-construction-notice/</loc>
     
     <lastmod>2022-06-30</lastmod>
     
@@ -46,24 +37,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://ykuo2.github.io/2022/20220629-test-for-tag/</loc>
-    
-    <lastmod>2022-06-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/2022/20220626-test-for-modify-title/</loc>
-    
-    <lastmod>2022-06-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://ykuo2.github.io/</loc>
@@ -74,42 +47,14 @@
 
   
   <url>
-    <loc>http://ykuo2.github.io/tags/test3/</loc>
+    <loc>http://ykuo2.github.io/tags/test-tag1/</loc>
     <lastmod>2022-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ykuo2.github.io/tags/test2/</loc>
-    <lastmod>2022-06-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/tags/tag1/</loc>
-    <lastmod>2022-06-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/tags/tag2/</loc>
-    <lastmod>2022-06-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/tags/test1/</loc>
-    <lastmod>2022-06-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/tags/abc/</loc>
+    <loc>http://ykuo2.github.io/tags/test-tag2/</loc>
     <lastmod>2022-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -118,14 +63,7 @@
 
   
   <url>
-    <loc>http://ykuo2.github.io/categories/isolated-category/</loc>
-    <lastmod>2022-06-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/categories/test-category1/</loc>
+    <loc>http://ykuo2.github.io/categories/test-category/</loc>
     <lastmod>2022-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
