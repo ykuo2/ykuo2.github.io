@@ -2804,7 +2804,8 @@ mjx-container[display='true'] + br {
     padding: 10px 12px;
   }
 }
-body {
+body,
+.body {
   background: #c9c9c9;
 }
 p,
@@ -2824,6 +2825,15 @@ pre,
 code,
 .pre,
 .code {
+  font-size: 1em;
+  line-height: 1.6em;
+}
+.blockquote,
+blockquote {
+  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
+  background: var(--highlight-background);
+  color: var(--highlight-foreground);
+  padding: 10px;
   font-size: 1em;
   line-height: 1.6em;
 }
