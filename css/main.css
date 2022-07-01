@@ -2821,23 +2821,24 @@ ul,
   font-size: 1em;
   line-height: 1.65em;
 }
+code,
+.code {
+  font-size: 0.8em;
+  line-height: 1.65em;
+}
 pre,
 .pre {
   margin: 10px 20px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   line-height: 1.5em;
-}
-code,
-.code {
-  line-height: 1.65em;
 }
 .blockquote,
 blockquote {
   font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
   background: var(--highlight-background);
   color: var(--highlight-foreground);
-  padding: 10px 20px;
   margin: 10px 20px;
+  padding: 10px 5px;
   font-size: 1em;
   line-height: 1.5em;
 }
