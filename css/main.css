@@ -2810,7 +2810,7 @@ body,
 }
 p,
 .p {
-  margin: 0 0 20px;
+  margin: 10px 20px;
   font-size: 1em;
   line-height: 1.65em;
 }
@@ -2822,19 +2822,24 @@ ul,
   line-height: 1.65em;
 }
 pre,
-code,
-.pre,
-.code {
+.pre {
+  margin: 10px 20px;
+  padding: 10px 20px;
   line-height: 1.5em;
+}
+code,
+.code {
+  line-height: 1.65em;
 }
 .blockquote,
 blockquote {
   font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
   background: var(--highlight-background);
   color: var(--highlight-foreground);
-  padding: 10px;
+  padding: 10px 20px;
+  margin: 10px 20px;
   font-size: 1em;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 h2,
 .h2 {
