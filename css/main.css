@@ -2812,20 +2812,19 @@ p,
 .p {
   margin: 0 0 20px;
   font-size: 1em;
-  line-height: 1.7em;
+  line-height: 1.65em;
 }
 ol,
 ul,
 .ol,
 .ul {
   font-size: 1em;
-  line-height: 1.7em;
+  line-height: 1.65em;
 }
 pre,
 code,
 .pre,
 .code {
-  font-size: 1em;
   line-height: 1.6em;
 }
 .blockquote,
