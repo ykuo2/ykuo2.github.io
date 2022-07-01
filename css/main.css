@@ -2853,3 +2853,9 @@ h1,
   font-size: 12px;
   font-family: monospace, serif;
 }
+.sidebar-toc-active .sidebar-nav-toc,
+.sidebar-overview-active .sidebar-nav-overview {
+  border-bottom-color: #000;
+  color: #000;
+  font-weight: 900;
+}
