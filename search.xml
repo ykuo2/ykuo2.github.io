@@ -38,13 +38,31 @@ to the images,</p>
 to the images,</p>
 <h1 id="test-layout2">test layout2</h1>
 <h2 id="dicom2jpg-1">dicom2jpg</h2>
-<p><strong><a
-href="https://github.com/ykuo2/dicom2jpg">dicom2jpg</a></strong> is a
-python package, which converts DICOM images to
-<code>JPG/PNG/BMP/TIFF</code>formats and to <code>numpy.ndarray</code>.
-It piplines the lookup transformations by applying Modality LUT, VOI
-LUT, and Presentation LUT to the images, which makes the output files
-look like what we see on standard DICOM viewers.</p>
+<p>核醫藥師於星期一上午 8 點整將 Mo-99/Tc-99m 孳生器內的 Tc-99m
+完全流洗出來 使用，共得 100 mCi Tc-99m，之後到隔天上午 8 點整時再次流洗
+Tc-99m 使用。 請問此時核醫藥師約可得到多少 Tc-99m?</p>
+<ol type="1">
+<li><ol type="A">
+<li>6 mCi (B) 50 mCi (C) 78 mCi (D) 100 mci</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>常常呈現類似 Dementia with Lewy bodies</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>常常呈現特徵性的雙側 lateral temporal areas 低葡萄糖代謝現象</li>
+</ol></li>
+</ol>
+<ul>
+<li><ol type="A">
+<li>6 mCi (B) 50 mCi (C) 78 mCi (D) 100 mci</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>常常呈現類似 Dementia with Lewy bodies</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>常常呈現特徵性的雙側 lateral temporal areas 低葡萄糖代謝現象</li>
+</ol></li>
+</ul>
 ]]></content>
       <categories>
         <category>test category</category>
