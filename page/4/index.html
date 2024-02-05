@@ -152,7 +152,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">31</span>
+          <span class="site-state-item-count">32</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -203,6 +203,106 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang>
+    <link itemprop="mainEntityOfPage" href="http://ykuo2.github.io/2022/20220821-hexo-Typora-insert-and-display-images.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar_penguin.png">
+      <meta itemprop="name" content="Yu Kuo">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="YK">
+      <meta itemprop="description" content>
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | YK">
+      <meta itemprop="description" content>
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/20220821-hexo-Typora-insert-and-display-images.html" class="post-title-link" itemprop="url">Hexo + Typora + insert and display images</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-08-21 00:35:05" itemprop="dateCreated datePublished" datetime="2022-08-21T00:35:05+08:00">2022-08-21</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/misc/" itemprop="url" rel="index"><span itemprop="name">misc</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>Hexo + Typora + 插入與顯示圖片</p>
+<p>試了許多方法，最喜歡這個解法</p>
+<p>不需使用 assest
+folder，不需使用外掛來修改路徑，不需仰賴第三方圖庫，在 Typora
+編輯器中能正常顯示圖片</p>
+<p><br></p>
+<h3 id="在-hexo-folder-_config.yml-的設置">1. 在
+<code>hexo folder &gt; _config.yml</code> 的設置</h3>
+<p>此法不需要每次都產生 asset folder，將它關閉</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: false</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<h3 id="typora-中的設置">2. Typora 中的設置</h3>
+<p>每當插入新圖片，會把圖片複製到
+<code>hexo folder &gt; source &gt; images &gt; 文章title &gt; </code> 資料夾中</p>
+<p><img src="/images/20220821-hexo-Typora-insert-and-display-images/Screen Shot 2022-08-21 at 12.40.53 AM.png" alt="Screen Shot 2022-08-21 at 12.40.53 AM" style="zoom:50%;"></p>
+<p><br></p>
+<h3 id="在-hexo-folder-scaffolds-post.md-中新增-typora-root-url-設定">3.
+在 <code>hexo folder &gt; scaffolds &gt; post.md</code> 中新增 Typora
+root url 設定</h3>
+<p>新增 <code>typora-root-url: ..</code> 字樣</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">updated: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags: []</span><br><span class="line">category: []</span><br><span class="line">sticky: </span><br><span class="line">typora-root-url: ..</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<p>reference: <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.cnblogs.com/himeka/p/16306906.html">https://www.cnblogs.com/himeka/p/16306906.html</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
