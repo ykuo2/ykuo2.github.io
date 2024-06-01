@@ -394,21 +394,7 @@
   </url>
   
   <url>
-    <loc>http://ykuo2.github.io/tags/math/</loc>
-    <lastmod>2024-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://ykuo2.github.io/tags/happiness/</loc>
-    <lastmod>2024-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://ykuo2.github.io/tags/economics/</loc>
     <lastmod>2024-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -423,6 +409,13 @@
   
   <url>
     <loc>http://ykuo2.github.io/tags/self-help/</loc>
+    <lastmod>2024-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://ykuo2.github.io/tags/math/</loc>
     <lastmod>2024-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -449,6 +442,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://ykuo2.github.io/tags/economics/</loc>
+    <lastmod>2024-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -466,14 +466,14 @@
   </url>
   
   <url>
-    <loc>http://ykuo2.github.io/categories/read/</loc>
+    <loc>http://ykuo2.github.io/categories/life/</loc>
     <lastmod>2024-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ykuo2.github.io/categories/life/</loc>
+    <loc>http://ykuo2.github.io/categories/read/</loc>
     <lastmod>2024-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
