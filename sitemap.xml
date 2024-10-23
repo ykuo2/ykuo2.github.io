@@ -416,13 +416,6 @@
 
   
   <url>
-    <loc>https://ykuo2.github.io/tags/nuclear-medicine/</loc>
-    <lastmod>2024-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ykuo2.github.io/tags/hexo/</loc>
     <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -430,7 +423,7 @@
   </url>
   
   <url>
-    <loc>https://ykuo2.github.io/tags/economics/</loc>
+    <loc>https://ykuo2.github.io/tags/nuclear-medicine/</loc>
     <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -465,7 +458,7 @@
   </url>
   
   <url>
-    <loc>https://ykuo2.github.io/tags/probability/</loc>
+    <loc>https://ykuo2.github.io/tags/economics/</loc>
     <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -485,14 +478,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://ykuo2.github.io/categories/medicine/</loc>
+    <loc>https://ykuo2.github.io/tags/probability/</loc>
     <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>https://ykuo2.github.io/categories/misc/</loc>
@@ -502,7 +495,7 @@
   </url>
   
   <url>
-    <loc>https://ykuo2.github.io/categories/read/</loc>
+    <loc>https://ykuo2.github.io/categories/medicine/</loc>
     <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -510,6 +503,13 @@
   
   <url>
     <loc>https://ykuo2.github.io/categories/life/</loc>
+    <lastmod>2024-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykuo2.github.io/categories/read/</loc>
     <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
