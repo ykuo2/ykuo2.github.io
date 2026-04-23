@@ -41,20 +41,31 @@
       </tags>
   </entry>
   <entry>
-    <title>Essentials of Nuclear Medicine and Molecular Imaging</title>
-    <url>/2022/09/Essentials-of-Nuclear-Medicine-and-Molecular-Imaging/</url>
-    <content><![CDATA[<p><img src="/images/20220906-Essentials-of-Nuclear-Medicine-and-Molecular-Imaging/615baw-2VXL.jpg" alt="img" style="zoom: 40%;" /></p>
-<p><a href="https://www.amazon.com/Essentials-Nuclear-Medicine-Molecular-Imaging-dp-0323483194/dp/0323483194/ref=dp_ob_title_bk">Essentials of Nuclear Medicine and Molecular Imaging</a></p>
-<p>by Fred A. Mettler Jr. MD MPH, Milton J. Guiberteau MD FACR FACNM</p>
+    <title>Hexo + Typora + insert and display images</title>
+    <url>/2022/08/hexo-Typora-insert-and-display-images/</url>
+    <content><![CDATA[<p>Hexo + Typora + 插入與顯示圖片</p>
+<p>試了許多方法，最喜歡這個解法</p>
+<p>不需使用 assest folder，不需使用外掛來修改路徑，不需仰賴第三方圖庫，在 Typora 編輯器中能正常顯示圖片</p>
 <p><br/></p>
-<p>核醫專科考試的另一本指定用書，語調較 <a href="https://ykuo2.github.io/2022/20220821-Nuclear-Medicine-and-Molecular-Imaging-The-Requisites/">Requisite</a> 那本書來得通順，排版也比較簡潔、合理，不會發生文不對題的事情。</p>
-<p>然而，本書的知識點卻有些鬆散，對於 fact 的傳遞顯得太柔軟，會有點讓人抓不到重點。內容的紮實度也無法和 <a href="https://ykuo2.github.io/2022/20220821-Nuclear-Medicine-and-Molecular-Imaging-The-Requisites/">Requisite</a> 相提並論，例如，radiotherapeutic 的著墨就很少。如果硬要從兩本中間選一本當作知識基石的話，<a href="https://ykuo2.github.io/2022/20220821-Nuclear-Medicine-and-Molecular-Imaging-The-Requisites/">Requisite</a> 似乎是比較好的選擇。（上一篇嫌棄你，我知道錯了 🥹）</p>
+<h3 id="在-hexo-folder-_config.yml-的設置">1. 在 <code>hexo folder &gt; _config.yml</code> 的設置</h3>
+<p>此法不需要每次都產生 asset folder，將它關閉</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: false</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h3 id="typora-中的設置">2. Typora 中的設置</h3>
+<p>每當插入新圖片，會把圖片複製到 <code>hexo folder &gt; source &gt; images &gt; 文章title &gt; </code> 資料夾中</p>
+<p><img src="/images/20220821-hexo-Typora-insert-and-display-images/Screen Shot 2022-08-21 at 12.40.53 AM.png" alt="Screen Shot 2022-08-21 at 12.40.53 AM" style="zoom:50%;" /></p>
+<p><br/></p>
+<h3 id="在-hexo-folder-scaffolds-post.md-中新增-typora-root-url-設定">3. 在 <code>hexo folder &gt; scaffolds &gt; post.md</code> 中新增 Typora root url 設定</h3>
+<p>新增 <code>typora-root-url: ..</code> 字樣</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">updated: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags: []</span><br><span class="line">category: []</span><br><span class="line">sticky: </span><br><span class="line">typora-root-url: ..</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<p>reference: <a href="https://www.cnblogs.com/himeka/p/16306906.html">https://www.cnblogs.com/himeka/p/16306906.html</a></p>
 ]]></content>
       <categories>
-        <category>medicine</category>
+        <category>misc</category>
       </categories>
       <tags>
-        <tag>nuclear medicine</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -75,6 +86,33 @@
       </tags>
   </entry>
   <entry>
+    <title>Infinite Powers 無限的力量</title>
+    <url>/2022/11/Infinite-Powers/</url>
+    <content><![CDATA[<p><img src="/images/20221123-Infinite-Powers/81INXVhTk9L.jpg" alt="img" style="zoom: 20%;" /></p>
+<p><a href="https://www.amazon.com/Infinite-Powers-Calculus-Reveals-Universe/dp/1328879984">Infinite Powers: How Calculus Reveals the Secrets of the Universe</a></p>
+<p>by Steven Strogatz</p>
+<p>作者的<a href="https://www.youtube.com/watch?v=1r6893ga_So">演講</a>，差不多也是書本的內容跑過一次</p>
+<p>幾年下來的考試，有些厭倦了死背活背的知識，想要重新了解與理解這個世界。學習微積分是這趟旅程的起點與基石。</p>
+<blockquote>
+<p>"It's the language God talks"</p>
+<p>Richard Feynman</p>
+</blockquote>
+<p><br></p>
+<p>剛好最近聽 podcast "<a href="https://freakonomics.com/podcast/should-you-try-to-be-less-angry/">No stupid questions episode 108 - Should You Try to Be Less Angry?</a>" 提到：</p>
+<blockquote>
+<p>"Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom"</p>
+<p>Viktor Frankl</p>
+</blockquote>
+<p>這似乎也可以說是極限概念的應用了？</p>
+]]></content>
+      <categories>
+        <category>read</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>How to Fail at Almost Everything and Still Win Big 我可以和貓聊一整天, 卻沒法跟人說半句話</title>
     <url>/2023/01/How-to-Fail-at-Almost-Everything-and-Still-Win-Big/</url>
     <content><![CDATA[<p><img src="/images/20230125-How-to-Fail-at-Almost-Everything-and-Still-Win-Big/32733151._SX318_.jpg" /></p>
@@ -92,6 +130,23 @@
       <tags>
         <tag>autobiography</tag>
         <tag>self-help</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Essentials of Nuclear Medicine and Molecular Imaging</title>
+    <url>/2022/09/Essentials-of-Nuclear-Medicine-and-Molecular-Imaging/</url>
+    <content><![CDATA[<p><img src="/images/20220906-Essentials-of-Nuclear-Medicine-and-Molecular-Imaging/615baw-2VXL.jpg" alt="img" style="zoom: 40%;" /></p>
+<p><a href="https://www.amazon.com/Essentials-Nuclear-Medicine-Molecular-Imaging-dp-0323483194/dp/0323483194/ref=dp_ob_title_bk">Essentials of Nuclear Medicine and Molecular Imaging</a></p>
+<p>by Fred A. Mettler Jr. MD MPH, Milton J. Guiberteau MD FACR FACNM</p>
+<p><br/></p>
+<p>核醫專科考試的另一本指定用書，語調較 <a href="https://ykuo2.github.io/2022/20220821-Nuclear-Medicine-and-Molecular-Imaging-The-Requisites/">Requisite</a> 那本書來得通順，排版也比較簡潔、合理，不會發生文不對題的事情。</p>
+<p>然而，本書的知識點卻有些鬆散，對於 fact 的傳遞顯得太柔軟，會有點讓人抓不到重點。內容的紮實度也無法和 <a href="https://ykuo2.github.io/2022/20220821-Nuclear-Medicine-and-Molecular-Imaging-The-Requisites/">Requisite</a> 相提並論，例如，radiotherapeutic 的著墨就很少。如果硬要從兩本中間選一本當作知識基石的話，<a href="https://ykuo2.github.io/2022/20220821-Nuclear-Medicine-and-Molecular-Imaging-The-Requisites/">Requisite</a> 似乎是比較好的選擇。（上一篇嫌棄你，我知道錯了 🥹）</p>
+]]></content>
+      <categories>
+        <category>medicine</category>
+      </categories>
+      <tags>
+        <tag>nuclear medicine</tag>
       </tags>
   </entry>
   <entry>
@@ -137,40 +192,17 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo + Typora + insert and display images</title>
-    <url>/2022/08/hexo-Typora-insert-and-display-images/</url>
-    <content><![CDATA[<p>Hexo + Typora + 插入與顯示圖片</p>
-<p>試了許多方法，最喜歡這個解法</p>
-<p>不需使用 assest folder，不需使用外掛來修改路徑，不需仰賴第三方圖庫，在 Typora 編輯器中能正常顯示圖片</p>
-<p><br/></p>
-<h3 id="在-hexo-folder-_config.yml-的設置">1. 在 <code>hexo folder &gt; _config.yml</code> 的設置</h3>
-<p>此法不需要每次都產生 asset folder，將它關閉</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: false</span><br></pre></td></tr></table></figure>
-<p><br/></p>
-<h3 id="typora-中的設置">2. Typora 中的設置</h3>
-<p>每當插入新圖片，會把圖片複製到 <code>hexo folder &gt; source &gt; images &gt; 文章title &gt; </code> 資料夾中</p>
-<p><img src="/images/20220821-hexo-Typora-insert-and-display-images/Screen Shot 2022-08-21 at 12.40.53 AM.png" alt="Screen Shot 2022-08-21 at 12.40.53 AM" style="zoom:50%;" /></p>
-<p><br/></p>
-<h3 id="在-hexo-folder-scaffolds-post.md-中新增-typora-root-url-設定">3. 在 <code>hexo folder &gt; scaffolds &gt; post.md</code> 中新增 Typora root url 設定</h3>
-<p>新增 <code>typora-root-url: ..</code> 字樣</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">updated: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags: []</span><br><span class="line">category: []</span><br><span class="line">sticky: </span><br><span class="line">typora-root-url: ..</span><br></pre></td></tr></table></figure>
-<p><br/></p>
-<p>reference: <a href="https://www.cnblogs.com/himeka/p/16306906.html">https://www.cnblogs.com/himeka/p/16306906.html</a></p>
-]]></content>
-      <categories>
-        <category>misc</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>忘れる読書</title>
-    <url>/2023/08/wasurerudokusyou/</url>
-    <content><![CDATA[<p><img src="/images/20230822-wasurerudokusyou/5194u2T06kL._SL500_.jpg" alt="『忘れる読書』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/忘れる読書-オーディオブック/B0BZWGRDQ3?qid=1692719466&amp;sr=1-1&amp;ref=f=a_search_c3_lProduct_1_1&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=ZDACNE8A3ZVEVV30CBN4&amp;pageLoadId=X9qyYt5JVzmHmp2r&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2">忘れる読書</a><br/>著者： 落合 陽一<br/>ナレーター： 櫻井 慎也</p>
-<p>最近在 YouTube 常常看到這個作者發表對於一些人工智能與科技的看法，才發現他跟我差不多歲數！本書提到他大學時期年了千本以上的書，想到我大學時期也「借了」千本以上的書。平常就常去總圖書館看書，看到累了就起來走走，「逛逛書架」，隨意看到喜歡的書就會借回宿舍擺著。一本書可以借一個月，並且在沒有人預約的情況下，可以續借 11 次。也就是可以擁有一本書一年的時間。</p>
-<p>這本書有太多的作者與作品名稱，以及針對各個書，作者從中間獲取哪些養份。然而，對於不太熟悉日本姓名的我來說，理解力大概不到一半而已...還需要再多加努力。</p>
+    <title>ハリー・ポッターと賢者の石</title>
+    <url>/2023/08/harry-potter-1/</url>
+    <content><![CDATA[<p><img src="/images/20230822-harry-potter-1/51e0V1wZU+L._SL500_.jpg" alt="『ハリー・ポッターと賢者の石』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/ハリー・ポッターと賢者の石-オーディオブック/B01M7X1YDU?qid=1692645645&amp;sr=1-1&amp;ref=f=a_search_c3_lProduct_1_1&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=WFKPC7WD734CNTDWMK77&amp;pageLoadId=2OssOQOHK4VHcxti&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2">ハリー・ポッターと賢者の石</a><br />著者： J.K.ローリング, 松岡 佑子<br/>ナレーター： 風間 杜夫<br/></p>
+<p>為了想聽哈利波特日文版 audiobook，於是訂閱了 <a href="https://www.audible.co.jp">audible</a>。日本的訂閱制度目前是每個月 1500 日幣，除了少數作品，絕大部分的書都是可以無限制聽。那些非無限制的書籍，可以折價購買。</p>
+<p>預計在 2024 年夏天考日檢 N1。時間真的過得很快，通過 N2 竟然已經是十年前的事了。目前我把日文定位在增加一個能吸收資訊的管道，且因應日檢考試的內容（字彙/文法句型/聽力），在各個方面制定一些方向（並隨時修正）：</p>
+<p>我很愛看書，幸運地在高中時期讀了旋元佑文法，接觸了 extensive reading 的概念，並藉此提升了英文程度。本來也想用廣讀的方式如法炮製學日文，但是廣讀在學日文上有個很大的盲點- -如果不去查字典，會不知道/不確定生詞正確的唸法。在英文上，大多都可以用自然發音法抓到絕大多數的發音，從而能有更多的刺激記住單字，從而也能提升英文聽力。日文卻不同：沒有標註唸法的話，雖然常常可以藉由漢字的幫助下看得懂意思，但無論是訓讀或是音讀，都無法確切地掌握發音，甚至很容易會唸錯。這樣當這個生詞下次再出現的時候（聽或讀），無法有效地將這幾次經驗累積、連結在一起，廣讀能帶來的效益就少了許多。</p>
+<p>但日文和英文相比，又有比較容易切入的地方：因為漢字文化圈的優勢，在聽內容的時候，僅僅需要少數的前後脈絡，就能有很高的機率猜中音讀以及外來語的詞彙意義甚至是寫法，從而能記住這些詞彙。所以我打算利用 extensive listening 來同時加強聽力、還有音讀以及外來語詞彙，選用 amazon 的 audible 以及一些 podcast/youtube。訓讀詞彙的部分就需要再多花一些工夫，透過有字幕的 youtube 頻道（例如<a href="https://www.youtube.com/@ferumi">フェルミ漫画大学</a>）以及閱讀，配合查字典的方式來學習。</p>
+<p>同時間，去圖書館借一些市面上的文法書，配上以前買的文法書反覆查閱、熟悉內容加上補充筆記，應該就能記得起來。</p>
+<p>有了足夠的單字量以及文法句型基礎後，把以前買的一堆小說看一看，有興趣的單字背一背。如果都看完了，考慮訂閱 Kindle unlimited 增加閱讀量。廣讀等同是在複習單字以及文法句型。</p>
+<p>最後考前一兩個月左右寫一些考古題以及模擬考題。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -178,33 +210,6 @@
       <tags>
         <tag>nihongo</tag>
         <tag>audible</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Infinite Powers 無限的力量</title>
-    <url>/2022/11/Infinite-Powers/</url>
-    <content><![CDATA[<p><img src="/images/20221123-Infinite-Powers/81INXVhTk9L.jpg" alt="img" style="zoom: 20%;" /></p>
-<p><a href="https://www.amazon.com/Infinite-Powers-Calculus-Reveals-Universe/dp/1328879984">Infinite Powers: How Calculus Reveals the Secrets of the Universe</a></p>
-<p>by Steven Strogatz</p>
-<p>作者的<a href="https://www.youtube.com/watch?v=1r6893ga_So">演講</a>，差不多也是書本的內容跑過一次</p>
-<p>幾年下來的考試，有些厭倦了死背活背的知識，想要重新了解與理解這個世界。學習微積分是這趟旅程的起點與基石。</p>
-<blockquote>
-<p>"It's the language God talks"</p>
-<p>Richard Feynman</p>
-</blockquote>
-<p><br></p>
-<p>剛好最近聽 podcast "<a href="https://freakonomics.com/podcast/should-you-try-to-be-less-angry/">No stupid questions episode 108 - Should You Try to Be Less Angry?</a>" 提到：</p>
-<blockquote>
-<p>"Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom"</p>
-<p>Viktor Frankl</p>
-</blockquote>
-<p>這似乎也可以說是極限概念的應用了？</p>
-]]></content>
-      <categories>
-        <category>read</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
       </tags>
   </entry>
   <entry>
@@ -223,17 +228,12 @@
       </tags>
   </entry>
   <entry>
-    <title>ハリー・ポッターと賢者の石</title>
-    <url>/2023/08/harry-potter-1/</url>
-    <content><![CDATA[<p><img src="/images/20230822-harry-potter-1/51e0V1wZU+L._SL500_.jpg" alt="『ハリー・ポッターと賢者の石』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/ハリー・ポッターと賢者の石-オーディオブック/B01M7X1YDU?qid=1692645645&amp;sr=1-1&amp;ref=f=a_search_c3_lProduct_1_1&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=WFKPC7WD734CNTDWMK77&amp;pageLoadId=2OssOQOHK4VHcxti&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2">ハリー・ポッターと賢者の石</a><br />著者： J.K.ローリング, 松岡 佑子<br/>ナレーター： 風間 杜夫<br/></p>
-<p>為了想聽哈利波特日文版 audiobook，於是訂閱了 <a href="https://www.audible.co.jp">audible</a>。日本的訂閱制度目前是每個月 1500 日幣，除了少數作品，絕大部分的書都是可以無限制聽。那些非無限制的書籍，可以折價購買。</p>
-<p>預計在 2024 年夏天考日檢 N1。時間真的過得很快，通過 N2 竟然已經是十年前的事了。目前我把日文定位在增加一個能吸收資訊的管道，且因應日檢考試的內容（字彙/文法句型/聽力），在各個方面制定一些方向（並隨時修正）：</p>
-<p>我很愛看書，幸運地在高中時期讀了旋元佑文法，接觸了 extensive reading 的概念，並藉此提升了英文程度。本來也想用廣讀的方式如法炮製學日文，但是廣讀在學日文上有個很大的盲點- -如果不去查字典，會不知道/不確定生詞正確的唸法。在英文上，大多都可以用自然發音法抓到絕大多數的發音，從而能有更多的刺激記住單字，從而也能提升英文聽力。日文卻不同：沒有標註唸法的話，雖然常常可以藉由漢字的幫助下看得懂意思，但無論是訓讀或是音讀，都無法確切地掌握發音，甚至很容易會唸錯。這樣當這個生詞下次再出現的時候（聽或讀），無法有效地將這幾次經驗累積、連結在一起，廣讀能帶來的效益就少了許多。</p>
-<p>但日文和英文相比，又有比較容易切入的地方：因為漢字文化圈的優勢，在聽內容的時候，僅僅需要少數的前後脈絡，就能有很高的機率猜中音讀以及外來語的詞彙意義甚至是寫法，從而能記住這些詞彙。所以我打算利用 extensive listening 來同時加強聽力、還有音讀以及外來語詞彙，選用 amazon 的 audible 以及一些 podcast/youtube。訓讀詞彙的部分就需要再多花一些工夫，透過有字幕的 youtube 頻道（例如<a href="https://www.youtube.com/@ferumi">フェルミ漫画大学</a>）以及閱讀，配合查字典的方式來學習。</p>
-<p>同時間，去圖書館借一些市面上的文法書，配上以前買的文法書反覆查閱、熟悉內容加上補充筆記，應該就能記得起來。</p>
-<p>有了足夠的單字量以及文法句型基礎後，把以前買的一堆小說看一看，有興趣的單字背一背。如果都看完了，考慮訂閱 Kindle unlimited 增加閱讀量。廣讀等同是在複習單字以及文法句型。</p>
-<p>最後考前一兩個月左右寫一些考古題以及模擬考題。</p>
+    <title>忘れる読書</title>
+    <url>/2023/08/wasurerudokusyou/</url>
+    <content><![CDATA[<p><img src="/images/20230822-wasurerudokusyou/5194u2T06kL._SL500_.jpg" alt="『忘れる読書』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/忘れる読書-オーディオブック/B0BZWGRDQ3?qid=1692719466&amp;sr=1-1&amp;ref=f=a_search_c3_lProduct_1_1&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=ZDACNE8A3ZVEVV30CBN4&amp;pageLoadId=X9qyYt5JVzmHmp2r&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2">忘れる読書</a><br/>著者： 落合 陽一<br/>ナレーター： 櫻井 慎也</p>
+<p>最近在 YouTube 常常看到這個作者發表對於一些人工智能與科技的看法，才發現他跟我差不多歲數！本書提到他大學時期年了千本以上的書，想到我大學時期也「借了」千本以上的書。平常就常去總圖書館看書，看到累了就起來走走，「逛逛書架」，隨意看到喜歡的書就會借回宿舍擺著。一本書可以借一個月，並且在沒有人預約的情況下，可以續借 11 次。也就是可以擁有一本書一年的時間。</p>
+<p>這本書有太多的作者與作品名稱，以及針對各個書，作者從中間獲取哪些養份。然而，對於不太熟悉日本姓名的我來說，理解力大概不到一半而已...還需要再多加努力。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -266,6 +266,23 @@
 <p><a href="https://www.audible.co.jp/pd/【草薙龍瞬朗読】反応しない練習（特別版）～自分の心を失わないために～-オーディオブック/B085C17DVR?eac_link=WzNJXCNpakFl&amp;ref=web_search_eac_asin_2&amp;eac_selected_type=asin&amp;eac_selected=B085C17DVR&amp;qid=TZLev2T1Nh&amp;eac_id=355-1796222-6169149_TZLev2T1Nh&amp;sr=1-2">反応しない練習</a><br/>著者：草薙 龍瞬<br/>ナレーター：草薙 龍瞬</p>
 <p>作者親自朗讀，斷句有種字字珠璣的感覺。闡述相由心生，而諸法空相...對自己不可控制之事物抱持著過份執著只是徒增煩惱。面對煩惱的態度猶如 stoicism，而達到內心平靜的具體方法類似 mindfulness。</p>
 <p>書的尾端加上作者在出家前的種種心路歷程，為本書畫龍點睛。</p>
+]]></content>
+      <categories>
+        <category>audiobook</category>
+      </categories>
+      <tags>
+        <tag>nihongo</tag>
+        <tag>audible</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ジェームズ・クリアー式 複利で伸びる１つの習慣</title>
+    <url>/2023/09/atomic-habits/</url>
+    <content><![CDATA[<p><img src="/images/20230905-atomic-habits/51nsm7wf8sL._SL500_.jpg" alt="『ジェームズ・クリアー式 複利で伸びる１つの習慣』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/B087FDQBK4?source_code=ASSORAP0511160006&amp;share_location=library_overflow">ジェームズ・クリアー式 複利で伸びる１つの習慣</a><br/>Atomic Habits<br/>著者： ジェームズ・クリアー <br/>ナレーター： 佐々木 健 <br/>再生時間： 9 時間 18 分</p>
+<p>近幾年相當著名的自我成長書籍，當然也有先看過中文版了。就算已經看過中文版，也對其中內容還算熟悉，甚至也有把書中的部分內容運用在生活上了，要及時理解日文有聲書的內容還是相當吃力（常常放空）。</p>
+<p>想當初中文版的書也需要慢慢看，邊看邊思考。要求用聽的就能馬上吸收，實在是強人所難，更何況聽力火候還未到。</p>
+<p>又或許，這類主打這看了就能促進自己思考、改變人生的書籍，其實不太適合當有聲書？</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -309,13 +326,13 @@
       </tags>
   </entry>
   <entry>
-    <title>ジェームズ・クリアー式 複利で伸びる１つの習慣</title>
-    <url>/2023/09/atomic-habits/</url>
-    <content><![CDATA[<p><img src="/images/20230905-atomic-habits/51nsm7wf8sL._SL500_.jpg" alt="『ジェームズ・クリアー式 複利で伸びる１つの習慣』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/B087FDQBK4?source_code=ASSORAP0511160006&amp;share_location=library_overflow">ジェームズ・クリアー式 複利で伸びる１つの習慣</a><br/>Atomic Habits<br/>著者： ジェームズ・クリアー <br/>ナレーター： 佐々木 健 <br/>再生時間： 9 時間 18 分</p>
-<p>近幾年相當著名的自我成長書籍，當然也有先看過中文版了。就算已經看過中文版，也對其中內容還算熟悉，甚至也有把書中的部分內容運用在生活上了，要及時理解日文有聲書的內容還是相當吃力（常常放空）。</p>
-<p>想當初中文版的書也需要慢慢看，邊看邊思考。要求用聽的就能馬上吸收，實在是強人所難，更何況聽力火候還未到。</p>
-<p>又或許，這類主打這看了就能促進自己思考、改變人生的書籍，其實不太適合當有聲書？</p>
+    <title>99.9％は幸せの素人</title>
+    <url>/2023/10/amateurs-in-happiness/</url>
+    <content><![CDATA[<p><img src="/images/20231009-amateurs-in-happiness/510p9aoEiuS._SL500_.jpg" alt="『99.9％は幸せの素人』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/99-9％は幸せの素人-オーディオブック/B08R72QS6X?ref_pageloadid=V8T0MBELcS1UVBI9&amp;ref=f=a_library_t_c5_libItem_B08R72QS6X_0&amp;pf_rd_p=37981170-2ab2-44ac-8ece-cdda8c07e530&amp;pf_rd_r=C98YTGKDD8VWQ6GPRPJE&amp;pageLoadId=MvLgCTLjQ7MwM3UV&amp;ref_plink=not_applicable&amp;creativeId=fe6a2eac-22fe-4408-a458-f4442a0692b9">99.9％は幸せの素人</a><br>著者： 星 渉, 前野 隆司 <br> ナレーター： 桑原 敬一 <br>再生時間： 4 時間 34 分</p>
+<p>之前哈利波特4遇到了聽力瓶頸，稍微改變策略，採用主題式學習法。希望藉由主題明確好預測，以及重複曝光的方式來習得單字。接下來挑選的主題是「快樂/幸福」相關。</p>
+<p>經過小樣本的個人觀察，日本的書籍偏好以重點整理的方式提供給讀者能立竿見影的知識，讓人有讀完就好像能比別人懂更多、更具備優勢的感覺，但內容可能有些武斷偏頗且實際上常常難以照作者提出的內容執行。而美國的書籍喜歡穿插很多不是歐美生活圈就不曉得的人物的故事經歷，用稍微迂迴的大篇幅方式闡述作者的思想，常常一不專心就不知所云，但卻能在無形中被啟發。</p>
+<p>這本書偏向前者。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -342,13 +359,12 @@
       </tags>
   </entry>
   <entry>
-    <title>99.9％は幸せの素人</title>
-    <url>/2023/10/amateurs-in-happiness/</url>
-    <content><![CDATA[<p><img src="/images/20231009-amateurs-in-happiness/510p9aoEiuS._SL500_.jpg" alt="『99.9％は幸せの素人』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/99-9％は幸せの素人-オーディオブック/B08R72QS6X?ref_pageloadid=V8T0MBELcS1UVBI9&amp;ref=f=a_library_t_c5_libItem_B08R72QS6X_0&amp;pf_rd_p=37981170-2ab2-44ac-8ece-cdda8c07e530&amp;pf_rd_r=C98YTGKDD8VWQ6GPRPJE&amp;pageLoadId=MvLgCTLjQ7MwM3UV&amp;ref_plink=not_applicable&amp;creativeId=fe6a2eac-22fe-4408-a458-f4442a0692b9">99.9％は幸せの素人</a><br>著者： 星 渉, 前野 隆司 <br> ナレーター： 桑原 敬一 <br>再生時間： 4 時間 34 分</p>
-<p>之前哈利波特4遇到了聽力瓶頸，稍微改變策略，採用主題式學習法。希望藉由主題明確好預測，以及重複曝光的方式來習得單字。接下來挑選的主題是「快樂/幸福」相關。</p>
-<p>經過小樣本的個人觀察，日本的書籍偏好以重點整理的方式提供給讀者能立竿見影的知識，讓人有讀完就好像能比別人懂更多、更具備優勢的感覺，但內容可能有些武斷偏頗且實際上常常難以照作者提出的內容執行。而美國的書籍喜歡穿插很多不是歐美生活圈就不曉得的人物的故事經歷，用稍微迂迴的大篇幅方式闡述作者的思想，常常一不專心就不知所云，但卻能在無形中被啟發。</p>
-<p>這本書偏向前者。</p>
+    <title>幸福の達人-科学的に自分を幸せにする行動リスト50</title>
+    <url>/2023/10/koufukunotatsujin/</url>
+    <content><![CDATA[<p><img src="/images/20231014-koufukunotatsujin/51fFTISB4tL._SL500_.jpg" alt="『幸福の達人 科学的に自分を幸せにする行動リスト50』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/幸福の達人-科学的に自分を幸せにする行動リスト50-オーディオブック/B099JRNVTY?source_code=ASSORAP0511160006&amp;share_location=pdp">幸福の達人 科学的に自分を幸せにする行動リスト50</a> <br>著者： Testosterone, 前野 隆司 <br>ナレーター： 岡本 和浩 <br>再生時間： 4 時間 15 分</p>
+<p>和<a href="https://ykuo2.github.io/2023/20231009-amateurs-in-happiness/">前一本書</a>同樣的共同作者，提供有關幸福快樂的研究資料，同樣的材料炒出不同的菜。作者化名 <a href="https://twitter.com/badassceo">Testosterone</a>，出了很多本健身相關的書籍。「想要幸福快樂？擼鐵就對了！」的精神貫穿了整本書。</p>
+<p>兩本書都著墨許多篇幅在日本人（以及台灣人）很需要的工作平衡方面，但也都較少提到歐美書籍時常會帶到的冥想正念。可以說比較務實（？）</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -366,22 +382,6 @@
 <p>作者嘗試用三種腦內物質 serotonin, oxytocin, dopamine 的交互作用，用自己的「三種幸福」假說，建議我們先對於自身健康知足(serotonoin-like)、與人進行情感連結(oxytocin-like)的幸福有一定基礎之後，再追求具有成就感與吸引力較大的目標(dopamine-like)</p>
 <p>雖然這個假說沒有很強的證據支持，有些地方也有些自圓其說的感覺，中間也不乏一些自我推銷的成分在，但整體來說是很值得一讀的書。</p>
 <p>作者在眾多幸福快樂的研究中梳理出脈絡，非常有建設性地指出朝向幸福快樂的<strong>方向</strong>，並非只是單單做文獻整理而已。</p>
-]]></content>
-      <categories>
-        <category>audiobook</category>
-      </categories>
-      <tags>
-        <tag>nihongo</tag>
-        <tag>audible</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>幸福の達人-科学的に自分を幸せにする行動リスト50</title>
-    <url>/2023/10/koufukunotatsujin/</url>
-    <content><![CDATA[<p><img src="/images/20231014-koufukunotatsujin/51fFTISB4tL._SL500_.jpg" alt="『幸福の達人 科学的に自分を幸せにする行動リスト50』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/幸福の達人-科学的に自分を幸せにする行動リスト50-オーディオブック/B099JRNVTY?source_code=ASSORAP0511160006&amp;share_location=pdp">幸福の達人 科学的に自分を幸せにする行動リスト50</a> <br>著者： Testosterone, 前野 隆司 <br>ナレーター： 岡本 和浩 <br>再生時間： 4 時間 15 分</p>
-<p>和<a href="https://ykuo2.github.io/2023/20231009-amateurs-in-happiness/">前一本書</a>同樣的共同作者，提供有關幸福快樂的研究資料，同樣的材料炒出不同的菜。作者化名 <a href="https://twitter.com/badassceo">Testosterone</a>，出了很多本健身相關的書籍。「想要幸福快樂？擼鐵就對了！」的精神貫穿了整本書。</p>
-<p>兩本書都著墨許多篇幅在日本人（以及台灣人）很需要的工作平衡方面，但也都較少提到歐美書籍時常會帶到的冥想正念。可以說比較務實（？）</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -428,14 +428,12 @@
       </tags>
   </entry>
   <entry>
-    <title>幸せな孤独 「幸福学博士」が教える「孤独」を幸せに変える方法</title>
-    <url>/2023/11/shiawasenakoudoku/</url>
-    <content><![CDATA[<p><img src="/images/20231125-shiawasenakoudoku/51f3-khUoDL._SL500_-20231125020856919.jpg" alt="『幸せな孤独 「幸福学博士」が教える「孤独」を幸せに変える方法』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/幸せな孤独-「幸福学博士」が教える「孤独」を幸せに変える方法-オーディオブック/B09Z2GY51T">幸せな孤独 「幸福学博士」が教える「孤独」を幸せに変える方法</a><br> 著者： 前野 隆司<br> ナレーター： 森島 雄司 <br>再生時間： 4 時間 3 分<br></p>
-<p>鑽研幸福學的作者前野隆司的另一本書，寫給和我一樣喜歡/習慣孤獨的人們。</p>
-<p>有太多的幸福學研究指出人類在和人連結、和親友相處的時候，能有更多的幸福感。那麼，像我一樣較喜歡離群孤僻的人，就無法享有幸福感了嗎？</p>
-<p>作者建議我們可以維持一定的「低連結度」，不需要太多，適當即可，即勝於完全與群體社會脫節。我自己不知不覺之間也採用類似這樣的做法：有空就去星巴克看書，久而久之，也漸漸能和店員以及其他熟客點頭問候，甚至聊上一兩句，建立與人之間的連結。</p>
-<p>但更重要的，無論是不是愛 social 的人，都還是要喜歡自己、欣賞自己。</p>
+    <title>ブレイン メンタル 強化大全</title>
+    <url>/2023/12/brain-mental-kyoukataizen/</url>
+    <content><![CDATA[<p><img src="/images/20231206-brain-mental-kyoukataizen/515U6WcPayL._SL500_.jpg" alt="『ブレイン メンタル 強化大全』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/ブレイン-メンタル-強化大全-オーディオブック/B08GP5QT2N?ref_pageloadid=EwcWrjcsog3G4Ydz&amp;ref=f=a_author_E6_c9_lProduct_1_5&amp;pf_rd_p=e7c2b525-5563-4b52-aeb7-dccd6e9ff89f&amp;pf_rd_r=00ZGDAJ1CDSHNYV4V3XD&amp;pageLoadId=m1ECFA2FcnwmCQqS&amp;ref_plink=not_applicable&amp;creativeId=dfc46617-71c8-44cd-a8f7-a4f2736fb00d">ブレイン メンタル 強化大全</a> <br>著者： 樺沢 紫苑 <br>ナレーター： あんべ あつし <br>再生時間： 8 時間 55 分 <br></p>
+<p>整本書圍繞著增強腦力，促進心理健康的方向，提出睡得飽、睡得好、多運動、早上散步曬太陽，搭配一些健康飲食，冥想微笑感謝。</p>
+<p>這些也都和幸福的道理類似相通，不看書名，還以為這又是一本教人如何提升幸福感的書。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -446,12 +444,14 @@
       </tags>
   </entry>
   <entry>
-    <title>ブレイン メンタル 強化大全</title>
-    <url>/2023/12/brain-mental-kyoukataizen/</url>
-    <content><![CDATA[<p><img src="/images/20231206-brain-mental-kyoukataizen/515U6WcPayL._SL500_.jpg" alt="『ブレイン メンタル 強化大全』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/ブレイン-メンタル-強化大全-オーディオブック/B08GP5QT2N?ref_pageloadid=EwcWrjcsog3G4Ydz&amp;ref=f=a_author_E6_c9_lProduct_1_5&amp;pf_rd_p=e7c2b525-5563-4b52-aeb7-dccd6e9ff89f&amp;pf_rd_r=00ZGDAJ1CDSHNYV4V3XD&amp;pageLoadId=m1ECFA2FcnwmCQqS&amp;ref_plink=not_applicable&amp;creativeId=dfc46617-71c8-44cd-a8f7-a4f2736fb00d">ブレイン メンタル 強化大全</a> <br>著者： 樺沢 紫苑 <br>ナレーター： あんべ あつし <br>再生時間： 8 時間 55 分 <br></p>
-<p>整本書圍繞著增強腦力，促進心理健康的方向，提出睡得飽、睡得好、多運動、早上散步曬太陽，搭配一些健康飲食，冥想微笑感謝。</p>
-<p>這些也都和幸福的道理類似相通，不看書名，還以為這又是一本教人如何提升幸福感的書。</p>
+    <title>幸せな孤独 「幸福学博士」が教える「孤独」を幸せに変える方法</title>
+    <url>/2023/11/shiawasenakoudoku/</url>
+    <content><![CDATA[<p><img src="/images/20231125-shiawasenakoudoku/51f3-khUoDL._SL500_-20231125020856919.jpg" alt="『幸せな孤独 「幸福学博士」が教える「孤独」を幸せに変える方法』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/幸せな孤独-「幸福学博士」が教える「孤独」を幸せに変える方法-オーディオブック/B09Z2GY51T">幸せな孤独 「幸福学博士」が教える「孤独」を幸せに変える方法</a><br> 著者： 前野 隆司<br> ナレーター： 森島 雄司 <br>再生時間： 4 時間 3 分<br></p>
+<p>鑽研幸福學的作者前野隆司的另一本書，寫給和我一樣喜歡/習慣孤獨的人們。</p>
+<p>有太多的幸福學研究指出人類在和人連結、和親友相處的時候，能有更多的幸福感。那麼，像我一樣較喜歡離群孤僻的人，就無法享有幸福感了嗎？</p>
+<p>作者建議我們可以維持一定的「低連結度」，不需要太多，適當即可，即勝於完全與群體社會脫節。我自己不知不覺之間也採用類似這樣的做法：有空就去星巴克看書，久而久之，也漸漸能和店員以及其他熟客點頭問候，甚至聊上一兩句，建立與人之間的連結。</p>
+<p>但更重要的，無論是不是愛 social 的人，都還是要喜歡自己、欣賞自己。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -479,24 +479,6 @@
       </tags>
   </entry>
   <entry>
-    <title>勝間式生き方の知見 お金と幸せを同時に手に入れる55の方法</title>
-    <url>/2024/01/katsumashikiikikatanochimi/</url>
-    <content><![CDATA[<p><img src="/images/20240103-katsumashikiikikatanochimi/51DFJr2i4vL._SL500_.jpg" alt="『勝間式生き方の知見 お金と幸せを同時に手に入れる55の方法』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/勝間式生き方の知見-お金と幸せを同時に手に入れる55の方法-オーディオブック/B0BQ5K67HL?qid=1704294561&amp;sr=1-3&amp;ref_pageloadid=not_applicable&amp;ref=f=a_search_c3_lProduct_1_3&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=2S1TJ2C3H0TW7M3DGXX2&amp;pageLoadId=vMeRqWxHvp9W6sWO&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2">勝間式生き方の知見 お金と幸せを同時に手に入れる55の方法</a> <br>著者： 勝間 和代 <br>ナレーター： 澤田 珠里 <br>再生時間： 8 時間 52 分 <br></p>
-<p>這本書的論述句比<a href="https://ykuo2.github.io/2023/20231225-isshoujiyuuniyutakaniikiru.html">前一本</a>還要長，比較容易恍神，就沒有那麼有把握完全吸收。</p>
-<p>作者鼓勵我們要保持年輕的心，越活越開心，時常有源頭活水注入。事情在做與不做間猶豫的話，就選擇做吧。與其要等到七八成成功率才願意開始做，不如大膽一些，失敗了也能有所學習。（不過<a href="https://readingoutpost.com/naval-almanack/">快樂實現自主富有</a>的作者是覺得時間很珍貴，在世上要做的事太多了，不必執著一定要做自己尚處於猶豫的事）</p>
-<p>不一定要花時間選到 best，選個 better 就好。這就是 optimizer 與 satisficer 之間的拉扯了。</p>
-<p>本書也提到一個以前沒想到過的觀點：「如果覺得人生卡關了，那就搬家吧」，來個小小的重新啟動。我有時候覺得人生有點停滯了，是不是因為自己在同一個地方待太久了呢...?</p>
-]]></content>
-      <categories>
-        <category>audiobook</category>
-      </categories>
-      <tags>
-        <tag>nihongo</tag>
-        <tag>audible</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一生自由に豊かに生きる！ 100歳時代の勝間式人生戦略ハック100</title>
     <url>/2023/12/isshoujiyuuniyutakaniikiru/</url>
     <content><![CDATA[<p><img src="/images/20231225-isshoujiyuuniyutakaniikiru/51CgVaZlLBL._SL500_.jpg" alt="『一生自由に豊かに生きる！ 100歳時代の勝間式人生戦略ハック100』のカバーアート" style="zoom:50%;" /></p>
@@ -508,6 +490,24 @@
 <p>生命很寶貴，不要花太多時間在不想做的事上。把自己想成年輕二十歲，讓自己有追尋夢想的勇氣。</p>
 <p>指數化投資。</p>
 <p>噢，要留給自己一些耍廢的時間。</p>
+]]></content>
+      <categories>
+        <category>audiobook</category>
+      </categories>
+      <tags>
+        <tag>nihongo</tag>
+        <tag>audible</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>勝間式生き方の知見 お金と幸せを同時に手に入れる55の方法</title>
+    <url>/2024/01/katsumashikiikikatanochimi/</url>
+    <content><![CDATA[<p><img src="/images/20240103-katsumashikiikikatanochimi/51DFJr2i4vL._SL500_.jpg" alt="『勝間式生き方の知見 お金と幸せを同時に手に入れる55の方法』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/勝間式生き方の知見-お金と幸せを同時に手に入れる55の方法-オーディオブック/B0BQ5K67HL?qid=1704294561&amp;sr=1-3&amp;ref_pageloadid=not_applicable&amp;ref=f=a_search_c3_lProduct_1_3&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=2S1TJ2C3H0TW7M3DGXX2&amp;pageLoadId=vMeRqWxHvp9W6sWO&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2">勝間式生き方の知見 お金と幸せを同時に手に入れる55の方法</a> <br>著者： 勝間 和代 <br>ナレーター： 澤田 珠里 <br>再生時間： 8 時間 52 分 <br></p>
+<p>這本書的論述句比<a href="https://ykuo2.github.io/2023/20231225-isshoujiyuuniyutakaniikiru.html">前一本</a>還要長，比較容易恍神，就沒有那麼有把握完全吸收。</p>
+<p>作者鼓勵我們要保持年輕的心，越活越開心，時常有源頭活水注入。事情在做與不做間猶豫的話，就選擇做吧。與其要等到七八成成功率才願意開始做，不如大膽一些，失敗了也能有所學習。（不過<a href="https://readingoutpost.com/naval-almanack/">快樂實現自主富有</a>的作者是覺得時間很珍貴，在世上要做的事太多了，不必執著一定要做自己尚處於猶豫的事）</p>
+<p>不一定要花時間選到 best，選個 better 就好。這就是 optimizer 與 satisficer 之間的拉扯了。</p>
+<p>本書也提到一個以前沒想到過的觀點：「如果覺得人生卡關了，那就搬家吧」，來個小小的重新啟動。我有時候覺得人生有點停滯了，是不是因為自己在同一個地方待太久了呢...?</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -571,14 +571,13 @@
       </tags>
   </entry>
   <entry>
-    <title>やる気に頼らず「すぐやる人」になる37のコツ</title>
-    <url>/2024/02/yarukinitayorazu/</url>
-    <content><![CDATA[<p><img src="/images/20240206-yarukinitayorazu/51jq9uWow9L._SL500_.jpg" alt="『やる気に頼らず「すぐやる人」になる37のコツ』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/やる気に頼らず「すぐやる人」になる37のコツ-オーディオブック/B09NZJNX86?source_code=ASSORAP0511160006&amp;share_location=player_overflow">やる気に頼らず「すぐやる人」になる37のコツ</a> <br>著者： 大平 信孝 <br>ナレーター： MiC <br>再生時間： 3 時間 23 分 <br></p>
-<p>本書是談論習慣的書籍，許多要點也都和之前聽到看到的類似，內容不算多的小書。</p>
-<p>先觀察、量化想要改善的行為。從小小的變化開始，先做一點點，十秒之類的試試看，有蠻高機率會繼續做下去。</p>
-<p>打破完美主義，先求有再求好。</p>
-<p>在原有的習慣後，連結並建立新的習慣。</p>
+    <title>宇宙思考</title>
+    <url>/2024/02/uchuushikou/</url>
+    <content><![CDATA[<p><img src="/images/20240219-uchuushikou/515YW+n8HUL._SL500_.jpg" alt="『宇宙思考』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/宇宙思考-オーディオブック/B0CQY4ZT38?qid=1708272078&amp;sr=1-1&amp;ref_pageloadid=not_applicable&amp;ref=f=a_search_c3_lProduct_1_1&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=XHAC9NFS8ECPPXXW6WGT&amp;pageLoadId=k7pk8SvRy50FZ7FW&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2">宇宙思考</a> <br>著者： 天文物理学者BossB <br>ナレーター： 田所 未雪 <br>再生時間： 8 時間 55 分 <br></p>
+<p>這幾年開始對物理，對這世界，甚至宇宙感到興趣。有不少人提倡學習天文學，當我們知道宇宙的浩瀚、自己的渺小之後，就會覺得許多事情不是那麼的重要，也會珍惜現有的一切。</p>
+<p>因為眼前的這一切是多麼得來不易。</p>
+<p>作者從萬物組成原子分子量子，我們人類的所在位置，談到宇宙起源、大爆炸、宇宙未來、相對論、還有時間旅行。從目前科學理論出發，發想出人生的哲理。是會想買實體書來看的一本書。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -595,6 +594,24 @@
 <p><a href="https://www.audible.co.jp/pd/オードリー・タン-デジタルとAIの未来を語る-オーディオブック/B08R6VDGX8?ref_pageloadid=4w8HYYkHtQDUd8Gc&amp;ref=f=a_library_t_c5_libItem_B08R6VDGX8_10&amp;pf_rd_p=37981170-2ab2-44ac-8ece-cdda8c07e530&amp;pf_rd_r=F9CV1CP807N43MKV717J&amp;pageLoadId=cDVQYh1YfuoTMQ0o&amp;creativeId=fe6a2eac-22fe-4408-a458-f4442a0692b9">オードリー・タン デジタルとAIの未来を語る</a> <br>著者： オードリー・タン, プレジデント書籍編集チーム <br>ナレーター： 三輪 夏紀 <br>再生時間： 7 時間 11 分 <br></p>
 <p>唐鳳在疫情間的著作，不僅闡述了他的過去經歷，也描述了他參與公部門的初衷和面對挑戰的態度。</p>
 <p>因為懷抱著理想，所以可以溫柔穩定地對這世界付出、輸出。</p>
+]]></content>
+      <categories>
+        <category>audiobook</category>
+      </categories>
+      <tags>
+        <tag>nihongo</tag>
+        <tag>audible</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>やる気に頼らず「すぐやる人」になる37のコツ</title>
+    <url>/2024/02/yarukinitayorazu/</url>
+    <content><![CDATA[<p><img src="/images/20240206-yarukinitayorazu/51jq9uWow9L._SL500_.jpg" alt="『やる気に頼らず「すぐやる人」になる37のコツ』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/やる気に頼らず「すぐやる人」になる37のコツ-オーディオブック/B09NZJNX86?source_code=ASSORAP0511160006&amp;share_location=player_overflow">やる気に頼らず「すぐやる人」になる37のコツ</a> <br>著者： 大平 信孝 <br>ナレーター： MiC <br>再生時間： 3 時間 23 分 <br></p>
+<p>本書是談論習慣的書籍，許多要點也都和之前聽到看到的類似，內容不算多的小書。</p>
+<p>先觀察、量化想要改善的行為。從小小的變化開始，先做一點點，十秒之類的試試看，有蠻高機率會繼續做下去。</p>
+<p>打破完美主義，先求有再求好。</p>
+<p>在原有的習慣後，連結並建立新的習慣。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -626,93 +643,6 @@
 <p><a href="https://www.audible.co.jp/pd/何度でもリセット-オーディオブック/B0CV9Y17LB?ref_pageloadid=2UhCo2vzVSZ7LPrY&amp;ref=f%3Da_hp_c1_zing_0&amp;pf_rd_p=0a142256-077b-41ae-a36d-46455b6eb558&amp;pf_rd_r=N2P87PP6QCMPJBF06QRE&amp;pageLoadId=xFg3vCVe3GAIGyVc&amp;creativeId=64a79735-64ba-442c-b70f-17f61c458333">何度でもリセット 元コンサル僧侶が教える「会社軸」から「自分軸」へ転換マインドセット</a> <br>著者： 安永 雄彦 <br>ナレーター： 佐山 桃太郎 <br>再生時間： 2 時間 46 分<br></p>
 <p>自己的人生並不是社會的人生，先顧好自己。</p>
 <p>最近不知道是停滯期，還是稍微失去興趣，對於 audiobook 的內容並沒有仔細去聽，就只是當作運動、交通時候的背景音而已。</p>
-]]></content>
-      <categories>
-        <category>audiobook</category>
-      </categories>
-      <tags>
-        <tag>nihongo</tag>
-        <tag>audible</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高学歴難民</title>
-    <url>/2024/06/kougakureki-nanmin/</url>
-    <content><![CDATA[<p><img src="/images/20240623-kougakureki-nanmin/51Bm4XWnjTL._SL500_.jpg" alt="『高学歴難民』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/高学歴難民-オーディオブック/B0CTKK7LQ7?ref_pageloadid=IRvFugBeMb1znaXi&amp;ref=f=a_library_t_c5_libItem_B0CTKK7LQ7_7&amp;pf_rd_p=37981170-2ab2-44ac-8ece-cdda8c07e530&amp;pf_rd_r=QEX37H47JDD55SBGNCVQ&amp;pageLoadId=TeR8eHLVmmkyqo1P&amp;creativeId=fe6a2eac-22fe-4408-a458-f4442a0692b9">高学歴難民</a> </br> 著者： 阿部 恭子 </br> ナレーター： 漆間 朝子 </br> 再生時間： 3 時間 38 分 </br></p>
-<p>原先在擅長的賽道上領先的人，遇到環境改變，還是會捨不得離開本來的跑道，只能眼睜睜地看著其他本來落後的人們不斷超前⋯</p>
-<p>在學生時期的唯一明確指標--成績上總能做好做滿的人，在進入職場之後面對各種曖昧指標，是否會適應不良呢？</p>
-<p>「總是不敢久留同一地方，怕好景總不常」，大學時被「當我遠颺」這首歌的這句話深深觸動，似乎也影響了自己對於人生的態度。</p>
-<p>這本書裡面有大量人物的故事，努力地在單一跑道上往前跑，在下一刻遇到人生一個重大事件，便立即轉向到下一段相對上較平穩的人生。</p>
-<p>或許，我們只是一直在尋找一個能接住自己的人/事/物。</p>
-]]></content>
-      <categories>
-        <category>audiobook</category>
-      </categories>
-      <tags>
-        <tag>nihongo</tag>
-        <tag>audible</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一度読んだら絶対に忘れない英文法の教科書</title>
-    <url>/2026/03/eibunnpoukyoukasyo/</url>
-    <content><![CDATA[<p><img src="/images/20260331-eibunnpoukyoukasyo/image-20260331233642665.png" alt="image-20260331233642665" style="zoom:50%;" /></p>
-<p><a href="https://www.amazon.co.jp/一度読んだら絶対に忘れない英文法の教科書-牧野-智一-ebook/dp/B08S3HQXKT/ref=sr_1_6?crid=3N3PM5OFP3481&amp;dib=eyJ2IjoiMSJ9.XzwjjbrAlyOfICgzY5Ywp351l6GGIKUbKRlsi1kPMgHzkppdeOyqy2jDa9CXlV5Lm6f0qnskP3Te8uBlKyQlU6Dj6zJEuDQOkSvQhv0tNHuEDV2PJToJA9ULgthdQMQSmVtuwRT93N8kyFtJcn5IwDSSOoZJKgyHmDyzUjYXPwJbUA18vDwQhC3BnhobJeH_kQfn7kFDf2h9qJBxE4z2Ci08gJqRrTzSiEWibIAgy2ysB1-lpBG-waOyjhjWR58ACOaAFBB8bJn1LVv6Q7bj_jLkXX_4JE96tVTyaIM3FZ8.xqxmYDfICYSU8csG4cSfu8mnySNAMk4OyItWmn1UOwg&amp;dib_tag=se&amp;keywords=一度読んだら絶対に忘れない&amp;qid=1774971154&amp;sprefix=一度%2Caps%2C287&amp;sr=8-6">一度読んだら絶対に忘れない英文法の教科書</a> </br></p>
-<p>著者：牧野智一</br></p>
-<p>作者用歷史、宗教、語言融合等諸多觀點試圖解釋從 be 動詞到分詞構句等各種英文文法「為什麼會是現在這個樣子」，也詳細解釋各種相似表現法的帶給母語人士不同 nuance 的原因。</p>
-<p>從知道應該要這樣才符合文法，到理解這個文法是怎麼演變而來的，提供不同於傳統文法書的視角，讓讀者對於英文文法能有更深層的認識。對資訊多一層 encoding，就能記得更牢固。</p>
-<p>讓我印象最深刻的是提到，英文中的某些時態表達，如果單純轉換到日文，中間會有資訊以及語感的丟失，需要特別的注意。</p>
-]]></content>
-      <categories>
-        <category>read</category>
-      </categories>
-      <tags>
-        <tag>nihongo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>バスドライバーのろのろ日記</title>
-    <url>/2024/08/basudoraibanoronoronikki/</url>
-    <content><![CDATA[<p><img src="/images/20240820-basudoraibanoronoronikki/51yO4ysvr3L._SL500_.jpg" alt="『バスドライバーのろのろ日記――本日で12連勤、深夜0時まで時間厳守で運転します』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/バスドライバーのろのろ日記――本日で12連勤、深夜0時まで時間厳守で運転します-オーディオブック/B0CP898RNV?ref_pageloadid=uRvo1kcusnkEXv0b&amp;ref=f=a_library_t_c5_libItem_B0CP898RNV_1&amp;pf_rd_p=37981170-2ab2-44ac-8ece-cdda8c07e530&amp;pf_rd_r=GWR429KM91B64HRS9770&amp;pageLoadId=z31Yzx3pZehviOKb&amp;creativeId=fe6a2eac-22fe-4408-a458-f4442a0692b9">バスドライバーのろのろ日記――本日で12連勤、深夜0時まで時間厳守で運転します</a> </br> 著者： 須畑 寅夫 </br> ナレーター： 海老沢 潮 </br> シリーズ： 日記シリーズ </br> 再生時間： 6 時間 4 分 </br></p>
-<p>作者為老師因興趣轉職為公車司機。當然，遇到之前的學生，也是合情合理的。</p>
-<p>無論哪個行業，都有奧客，都有不合理的事，也都有需要對不合理的事低頭的時候。</p>
-<p>公車上的半匿名狀態也會讓人性的光輝以及黑暗面顯露出來。</p>
-]]></content>
-      <categories>
-        <category>audiobook</category>
-      </categories>
-      <tags>
-        <tag>nihongo</tag>
-        <tag>audible</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>宇宙思考</title>
-    <url>/2024/02/uchuushikou/</url>
-    <content><![CDATA[<p><img src="/images/20240219-uchuushikou/515YW+n8HUL._SL500_.jpg" alt="『宇宙思考』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/宇宙思考-オーディオブック/B0CQY4ZT38?qid=1708272078&amp;sr=1-1&amp;ref_pageloadid=not_applicable&amp;ref=f=a_search_c3_lProduct_1_1&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=XHAC9NFS8ECPPXXW6WGT&amp;pageLoadId=k7pk8SvRy50FZ7FW&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2">宇宙思考</a> <br>著者： 天文物理学者BossB <br>ナレーター： 田所 未雪 <br>再生時間： 8 時間 55 分 <br></p>
-<p>這幾年開始對物理，對這世界，甚至宇宙感到興趣。有不少人提倡學習天文學，當我們知道宇宙的浩瀚、自己的渺小之後，就會覺得許多事情不是那麼的重要，也會珍惜現有的一切。</p>
-<p>因為眼前的這一切是多麼得來不易。</p>
-<p>作者從萬物組成原子分子量子，我們人類的所在位置，談到宇宙起源、大爆炸、宇宙未來、相對論、還有時間旅行。從目前科學理論出發，發想出人生的哲理。是會想買實體書來看的一本書。</p>
-]]></content>
-      <categories>
-        <category>audiobook</category>
-      </categories>
-      <tags>
-        <tag>nihongo</tag>
-        <tag>audible</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>仕事も人間関係もうまくいく放っておく力 もっと「ドライ」でいい、99の理由</title>
-    <url>/2024/04/shigotomoningenkankeimoumakuikuhanatteokuchikara/</url>
-    <content><![CDATA[<p><img src="/images/20240424-shigotomoningenkankeimoumakuikuhanatteokuchikara/41OT9mkhswL._SL500_.jpg" alt="『仕事も人間関係もうまくいく放っておく力: もっと「ドライ」でいい、99の理由』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/仕事も人間関係もうまくいく放っておく力-もっと「ドライ」でいい、99の理由-オーディオブック/B09KLCDMK7?ref_pageloadid=97hnpuTFh1kCC83u&amp;ref=f=a_library_t_c5_libItem_B09KLCDMK7_8&amp;pf_rd_p=37981170-2ab2-44ac-8ece-cdda8c07e530&amp;pf_rd_r=TYC4YGBQZNJN3MZXXM7M&amp;pageLoadId=2GMdthVXsAhpv8XU&amp;creativeId=fe6a2eac-22fe-4408-a458-f4442a0692b9">仕事も人間関係もうまくいく放っておく力: もっと「ドライ」でいい、99の理由</a> <br>著者： 枡野 俊明 <br>ナレーター： 角田 雄二郎 <br>再生時間： 2 時間 59 分 <br></p>
-<p>不奢求親人能完全理解自己，能有部分理解就很好了。</p>
-<p>若無法完全理解對方的話，那就先這樣放著吧。</p>
-<p>人生沒有好事也沒有壞事，接受就是了。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -759,13 +689,13 @@
       </tags>
   </entry>
   <entry>
-    <title>1行書くだけ日記</title>
-    <url>/2026/03/ichigyoukakudake/</url>
-    <content><![CDATA[<p><img src="/images/20260331-ichigyoukakudake/51yUvskXwoL._SL500_.jpg" alt="『1行書くだけ日記　やるべきこと、やりたいことが見つかる』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/1行書くだけ日記%E3%80%80やるべきこと、やりたいことが見つかる-オーディオブック/B09DZ5VH3C?qid=1774952863&amp;sr=1-1&amp;ref_pageloadid=not_applicable&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=SFYHFNA5EYTX5RD56S75&amp;plink=8lerYUse4OF4GXah&amp;pageLoadId=0DlO4KXzz1hliOJV&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2&amp;ref=a_search_c3_lProduct_1_1">1行書くだけ日記　やるべきこと、やりたいことが見つかる</a> </br> 著者：伊藤 羊一 </br> ナレーター：竹内 栄治 </br></p>
-<p>每天就寫一行字，然後從中去思考這件事對自己的意義，並且問為什麼。</p>
-<p>其實類似主題的書其實也接觸了好幾本了，這本並沒有真的特別撼動心靈，但就是好巧不巧地出現在 Audible 的推薦清單中。</p>
-<p>就當作是於宇宙在提醒我要做點事吧。順順地聽完後，也就乖乖地照做，然後打下這篇文字。</p>
+    <title>仕事も人間関係もうまくいく放っておく力 もっと「ドライ」でいい、99の理由</title>
+    <url>/2024/04/shigotomoningenkankeimoumakuikuhanatteokuchikara/</url>
+    <content><![CDATA[<p><img src="/images/20240424-shigotomoningenkankeimoumakuikuhanatteokuchikara/41OT9mkhswL._SL500_.jpg" alt="『仕事も人間関係もうまくいく放っておく力: もっと「ドライ」でいい、99の理由』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/仕事も人間関係もうまくいく放っておく力-もっと「ドライ」でいい、99の理由-オーディオブック/B09KLCDMK7?ref_pageloadid=97hnpuTFh1kCC83u&amp;ref=f=a_library_t_c5_libItem_B09KLCDMK7_8&amp;pf_rd_p=37981170-2ab2-44ac-8ece-cdda8c07e530&amp;pf_rd_r=TYC4YGBQZNJN3MZXXM7M&amp;pageLoadId=2GMdthVXsAhpv8XU&amp;creativeId=fe6a2eac-22fe-4408-a458-f4442a0692b9">仕事も人間関係もうまくいく放っておく力: もっと「ドライ」でいい、99の理由</a> <br>著者： 枡野 俊明 <br>ナレーター： 角田 雄二郎 <br>再生時間： 2 時間 59 分 <br></p>
+<p>不奢求親人能完全理解自己，能有部分理解就很好了。</p>
+<p>若無法完全理解對方的話，那就先這樣放著吧。</p>
+<p>人生沒有好事也沒有壞事，接受就是了。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -776,15 +706,66 @@
       </tags>
   </entry>
   <entry>
-    <title>静かに生きて考える　Thinking in Calm Life</title>
-    <url>/2026/04/shizukaniikitekanngaeru/</url>
-    <content><![CDATA[<p><img src="/images/20260404-shizukaniikitekanngaeru/518r+yoTcmL._SL500_.jpg" alt="『静かに生きて考える　Thinking in Calm Life』のカバーアート" style="zoom:50%;" /></p>
-<p><a href="https://www.audible.co.jp/pd/静かに生きて考える%E3%80%80Thinking-in-Calm-Life-オーディオブック/B0D2L2X5QD?eac_link=r1MdPd9CgjQO&amp;ref=web_search_eac_asin_2&amp;eac_selected_type=asin&amp;eac_selected=B0D2L2X5QD&amp;qid=bwYFzRmIRD&amp;eac_id=355-6711369-6607639_bwYFzRmIRD&amp;sr=1-2">静かに生きて考える　Thinking in Calm Life</a> </br> 著者：森 博嗣</br> ナレーター：宮尾 透</br></p>
-<p>本書是作者對於人生、生活周遭一些思考的隨筆集。前陣子看了他的<a href="https://www.amazon.co.jp/新版-お金の減らし方-SB新書-657-森-博嗣/dp/4815626235">《お金の減らし方》</a>，覺得他的想法蠻有意思的，就再多關注一下。</p>
-<p>其中一篇提到以前日本武士在和平時期是不用「工作」的，大部分勞動的人是婦女以及小孩，所以在那個時候的價值觀，對於「有沒有在工作」這件事是中立的。</p>
-<p>稍微查了一下，比較低階的武士們，俸禄微薄，仍然需要兼差賺外快。 日本明治維新時期實施廃藩置県、版籍奉還、秩禄処分後，原先穩定領薪水武士們沒有了穩定收入，紛紛被迫轉行。這讓我想到這些年 AI 浪潮之下，許多原本穩定的工作變得不穩定...</p>
-<p>武士木村安兵衛就<a href="https://qdymag.com/editor-selection/24">轉行開了麵包店</a>「文英堂」以及後來的「<a href="https://www.ginzakimuraya.jp">木村屋</a>」。1875 年 4 月 4 日，木村安兵衛向賞櫻花中的明治天皇奉上「酒種桜あんパン」，獲得「引き続きおさめるように」的讚譽。在 2001 年，由一般社団法人日本記念日協会認定 4 月 4 日，是日本的<a href="https://www.cna.com.tw/topic/newsworld/163/202205310002.aspx#:~:text=%E3%80%8C%E6%96%87%E6%98%8E%E9%96%8B%E5%8C%96%E3%80%8D%E7%9A%84%E6%BB%8B%E5%91%B3%E5%A4%A9%E7%9A%87%E4%B9%9F%E9%9D%92%E7%9D%9E%E7%9A%84%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%202001%E5%B9%B4%EF%BC%8C%E4%B8%80%E8%88%AC%E7%A4%BE%E5%9C%98%E6%B3%95%E4%BA%BA%E6%9A%A8%E6%97%A5%E6%9C%AC%E7%B4%80%E5%BF%B5%E6%97%A5%E5%8D%94%E6%9C%83%E8%AA%8D%E8%AD%894%E6%9C%884%E6%97%A5%E7%82%BA%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%E6%97%A5%EF%BC%8C%E9%80%99%E8%88%87%E6%97%A5%E6%9C%AC%E6%9C%80%E6%9C%89%E5%90%8D%E7%9A%84%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%E5%BA%97%E2%94%80%E6%93%81%E6%9C%89153%E5%B9%B4%E6%AD%B7%E5%8F%B2%E3%80%81%E6%97%A5%E6%9C%AC%E7%AC%AC%E4%B8%80%E5%AE%B6%E9%BA%B5%E5%8C%85%E5%BA%97%E6%9C%A8%E6%9D%91%E5%B1%8B%EF%BC%88%E7%8F%BE%E5%90%8D%E6%9C%A8%E6%9D%91%E5%B1%8B%E7%B8%BD%E6%9C%AC%E5%BA%97%EF%BC%89%E6%9C%89%E9%97%9C%E3%80%82%20%E6%9C%A8%E6%9D%91%E5%B1%8B%E6%98%AF%E5%A4%B1%E6%A5%AD%E6%AD%A6%E5%A3%AB%E6%9C%A8%E6%9D%91%E5%AE%89%E5%85%B5%E8%A1%9B1869%E5%B9%B4%E5%89%B5%E7%AB%8B%E7%9A%84%E9%BA%B5%E5%8C%85%E5%BA%97%EF%BC%8C%E7%95%B6%E6%99%82%E6%97%A5%E6%9C%AC%E6%B0%91%E7%9C%BE%E7%86%B1%E4%B8%AD%E6%96%BC%E6%96%87%E6%98%8E%E9%96%8B%E5%8C%96%EF%BC%8C%E8%A5%BF%E6%B4%8B%E6%96%87%E5%8C%96%E8%A2%AB%E5%A4%A7%E9%87%8F%E5%BC%95%E9%80%B2%E6%97%A5%E6%9C%AC%EF%BC%8C%E5%8C%85%E6%8B%AC%E9%BA%B5%E5%8C%85%E9%80%99%E7%A8%AE%E6%B4%8B%E9%A3%9F%E5%9C%A8%E5%85%A7%E3%80%82%20%E4%B8%8D%E9%81%8E%EF%BC%8C%E7%95%B6%E6%99%82%E4%B8%BB%E6%B5%81%E7%9A%84%E8%A5%BF%E6%B4%8B%E9%BA%B5%E5%8C%85%E4%B8%8D%E4%BC%BC%E7%8F%BE%E5%9C%A8%E8%B3%AA%E5%9C%B0%E9%AC%86%E8%BB%9F%EF%BC%8C%E8%80%8C%E6%98%AF%E8%B3%AA%E5%9C%B0%E8%BC%83%E7%A1%AC%E3%80%81%E6%B0%B4%E5%88%86%E8%BC%83%E5%B0%91%E7%9A%84%E9%BA%B5%E5%8C%85%EF%BC%8C%E5%B0%8D%E4%BB%A5%E7%A8%BB%E7%B1%B3%E6%88%96%E7%8E%84%E7%B1%B3%E7%82%BA%E4%B8%BB%E9%A3%9F%E7%9A%84%E6%97%A5%E6%9C%AC%E4%BA%BA%E8%80%8C%E8%A8%80%EF%BC%8C%E4%B8%A6%E4%B8%8D%E6%98%AF%E9%82%A3%E9%BA%BC%E5%8F%97%E6%AD%A1%E8%BF%8E%E3%80%82%20%E6%9C%A8%E6%9D%91%E5%AE%89%E5%85%B5%E8%A1%9B%E8%88%87%E6%AC%A1%E5%AD%90%E8%8B%B1%E4%B8%89%E9%83%8E%E7%B6%93%E9%81%8E%E5%8F%8D%E8%A6%86%E5%98%97%E8%A9%A6%E6%94%B9%E8%89%AF%EF%BC%8C%E6%83%B3%E5%88%B0%E6%97%A5%E6%9C%AC%E4%BA%BA%E6%84%9B%E5%90%83%E7%9A%84%E3%80%8C%E9%85%92%E9%A5%85%E9%A0%AD%E3%80%8D%EF%BC%8C%E6%96%BC%E6%98%AF%E5%88%A9%E7%94%A8%E9%80%99%E6%AC%BE%E7%94%9C%E9%BB%9E%E7%9A%84%E9%85%92%E7%A8%AE%EF%BC%88%E4%BB%A5%E7%B1%B3%E9%A3%AF%E5%8F%8A%E9%BA%B4%E8%A3%BD%E9%80%A0%E7%9A%84%E9%85%B5%E6%AF%8D%EF%BC%89%E8%A3%BD%E4%BD%9C%E3%80%82%201875%E5%B9%B43%E6%9C%88%EF%BC%8C%E6%9C%A8%E6%9D%91%E5%AE%89%E5%85%B5%E8%A1%9B%E8%88%87%E7%AC%AC%E4%BA%8C%E4%BB%A3%E7%95%B6%E5%AE%B6%E8%8B%B1%E4%B8%89%E9%83%8E%EF%BC%8C%E4%BB%A5%E5%8F%8A%E5%BE%8C%E4%BE%86%E6%88%90%E7%82%BA%E7%AC%AC%E4%B8%89%E4%BB%A3%E7%95%B6%E5%AE%B6%E7%9A%84%E5%84%80%E5%9B%9B%E9%83%8E%E7%A0%94%E7%99%BC%E5%87%BA%E3%80%8C%E9%85%92%E7%A8%AE%E9%BA%B5%E5%8C%85%E3%80%8D%EF%BC%8C%E5%89%B5%E9%80%A0%E5%87%BA%E6%97%A5%E6%9C%AC%E4%BA%BA%E5%96%9C%E6%84%9B%E7%9A%84%E9%AC%86%E8%BB%9F%E8%B3%AA%E5%9C%B0%E3%80%81%E5%85%A7%E9%A4%A1%E5%8C%85%E8%91%97%E7%B4%85%E8%B1%86%EF%BC%8C%E5%86%8D%E4%BB%A5%E9%86%83%E6%BC%AC%E6%AB%BB%E8%8A%B1%E8%A3%9D%E9%A3%BE%E7%9A%84%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%E3%80%82%20%E9%80%99%E7%A8%AE%E8%9E%8D%E5%90%88%E8%A5%BF%E6%B4%8B%E9%BA%B5%E5%8C%85%E6%96%87%E5%8C%96%E8%88%87%E5%92%8C%E8%8F%93%E5%AD%90%E6%96%87%E5%8C%96%E7%9A%84%E9%BA%B5%E5%8C%85%EF%BC%8C%E7%B5%A6%E4%BA%BA%E4%B8%80%E7%A8%AE%E6%96%87%E6%98%8E%E9%96%8B%E5%8C%96%E7%9A%84%E5%8D%B0%E8%B1%A1%E3%80%82%201875%E5%B9%B44%E6%9C%884%E6%97%A5%EF%BC%8C%E6%9C%A8%E6%9D%91%E5%AE%89%E5%85%B5%E8%A1%9B%E9%80%8F%E9%81%8E%E5%8F%8B%E4%BA%BA%E5%B1%B1%E5%B2%A1%E9%90%B5%E8%88%9F%E7%9A%84%E7%89%BD%E7%B7%9A%EF%BC%8C%E5%B0%87%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%E7%8D%BB%E7%B5%A6%E5%88%B0%E6%9D%B1%E4%BA%AC%E5%90%91%E5%B3%B6%E8%B3%9E%E6%AB%BB%E7%9A%84%E6%98%8E%E6%B2%BB%E5%A4%A9%E7%9A%87%E4%BC%89%E5%84%B7%E5%93%81%E5%98%97%EF%BC%8C%E5%A4%A7%E7%8D%B2%E8%AE%9A%E8%B3%9E%E3%80%82%20%E6%9C%A8%E6%9D%91%E5%B1%8B%E7%AC%AC%E4%B8%89%E4%BB%A3%E7%95%B6%E5%AE%B6%E6%9C%A8%E6%9D%91%E5%84%80%E5%9B%9B%">紅豆麵包日</a>。</p>
-<p>也正好就是今天！</p>
+    <title>バスドライバーのろのろ日記</title>
+    <url>/2024/08/basudoraibanoronoronikki/</url>
+    <content><![CDATA[<p><img src="/images/20240820-basudoraibanoronoronikki/51yO4ysvr3L._SL500_.jpg" alt="『バスドライバーのろのろ日記――本日で12連勤、深夜0時まで時間厳守で運転します』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/バスドライバーのろのろ日記――本日で12連勤、深夜0時まで時間厳守で運転します-オーディオブック/B0CP898RNV?ref_pageloadid=uRvo1kcusnkEXv0b&amp;ref=f=a_library_t_c5_libItem_B0CP898RNV_1&amp;pf_rd_p=37981170-2ab2-44ac-8ece-cdda8c07e530&amp;pf_rd_r=GWR429KM91B64HRS9770&amp;pageLoadId=z31Yzx3pZehviOKb&amp;creativeId=fe6a2eac-22fe-4408-a458-f4442a0692b9">バスドライバーのろのろ日記――本日で12連勤、深夜0時まで時間厳守で運転します</a> </br> 著者： 須畑 寅夫 </br> ナレーター： 海老沢 潮 </br> シリーズ： 日記シリーズ </br> 再生時間： 6 時間 4 分 </br></p>
+<p>作者為老師因興趣轉職為公車司機。當然，遇到之前的學生，也是合情合理的。</p>
+<p>無論哪個行業，都有奧客，都有不合理的事，也都有需要對不合理的事低頭的時候。</p>
+<p>公車上的半匿名狀態也會讓人性的光輝以及黑暗面顯露出來。</p>
+]]></content>
+      <categories>
+        <category>audiobook</category>
+      </categories>
+      <tags>
+        <tag>nihongo</tag>
+        <tag>audible</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高学歴難民</title>
+    <url>/2024/06/kougakureki-nanmin/</url>
+    <content><![CDATA[<p><img src="/images/20240623-kougakureki-nanmin/51Bm4XWnjTL._SL500_.jpg" alt="『高学歴難民』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/高学歴難民-オーディオブック/B0CTKK7LQ7?ref_pageloadid=IRvFugBeMb1znaXi&amp;ref=f=a_library_t_c5_libItem_B0CTKK7LQ7_7&amp;pf_rd_p=37981170-2ab2-44ac-8ece-cdda8c07e530&amp;pf_rd_r=QEX37H47JDD55SBGNCVQ&amp;pageLoadId=TeR8eHLVmmkyqo1P&amp;creativeId=fe6a2eac-22fe-4408-a458-f4442a0692b9">高学歴難民</a> </br> 著者： 阿部 恭子 </br> ナレーター： 漆間 朝子 </br> 再生時間： 3 時間 38 分 </br></p>
+<p>原先在擅長的賽道上領先的人，遇到環境改變，還是會捨不得離開本來的跑道，只能眼睜睜地看著其他本來落後的人們不斷超前⋯</p>
+<p>在學生時期的唯一明確指標--成績上總能做好做滿的人，在進入職場之後面對各種曖昧指標，是否會適應不良呢？</p>
+<p>「總是不敢久留同一地方，怕好景總不常」，大學時被「當我遠颺」這首歌的這句話深深觸動，似乎也影響了自己對於人生的態度。</p>
+<p>這本書裡面有大量人物的故事，努力地在單一跑道上往前跑，在下一刻遇到人生一個重大事件，便立即轉向到下一段相對上較平穩的人生。</p>
+<p>或許，我們只是一直在尋找一個能接住自己的人/事/物。</p>
+]]></content>
+      <categories>
+        <category>audiobook</category>
+      </categories>
+      <tags>
+        <tag>nihongo</tag>
+        <tag>audible</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一度読んだら絶対に忘れない英文法の教科書</title>
+    <url>/2026/03/eibunnpoukyoukasyo/</url>
+    <content><![CDATA[<p><img src="/images/20260331-eibunnpoukyoukasyo/image-20260331233642665.png" alt="image-20260331233642665" style="zoom:50%;" /></p>
+<p><a href="https://www.amazon.co.jp/一度読んだら絶対に忘れない英文法の教科書-牧野-智一-ebook/dp/B08S3HQXKT/ref=sr_1_6?crid=3N3PM5OFP3481&amp;dib=eyJ2IjoiMSJ9.XzwjjbrAlyOfICgzY5Ywp351l6GGIKUbKRlsi1kPMgHzkppdeOyqy2jDa9CXlV5Lm6f0qnskP3Te8uBlKyQlU6Dj6zJEuDQOkSvQhv0tNHuEDV2PJToJA9ULgthdQMQSmVtuwRT93N8kyFtJcn5IwDSSOoZJKgyHmDyzUjYXPwJbUA18vDwQhC3BnhobJeH_kQfn7kFDf2h9qJBxE4z2Ci08gJqRrTzSiEWibIAgy2ysB1-lpBG-waOyjhjWR58ACOaAFBB8bJn1LVv6Q7bj_jLkXX_4JE96tVTyaIM3FZ8.xqxmYDfICYSU8csG4cSfu8mnySNAMk4OyItWmn1UOwg&amp;dib_tag=se&amp;keywords=一度読んだら絶対に忘れない&amp;qid=1774971154&amp;sprefix=一度%2Caps%2C287&amp;sr=8-6">一度読んだら絶対に忘れない英文法の教科書</a> </br></p>
+<p>著者：牧野智一</br></p>
+<p>作者用歷史、宗教、語言融合等諸多觀點試圖解釋從 be 動詞到分詞構句等各種英文文法「為什麼會是現在這個樣子」，也詳細解釋各種相似表現法的帶給母語人士不同 nuance 的原因。</p>
+<p>從知道應該要這樣才符合文法，到理解這個文法是怎麼演變而來的，提供不同於傳統文法書的視角，讓讀者對於英文文法能有更深層的認識。對資訊多一層 encoding，就能記得更牢固。</p>
+<p>讓我印象最深刻的是提到，英文中的某些時態表達，如果單純轉換到日文，中間會有資訊以及語感的丟失，需要特別的注意。</p>
+]]></content>
+      <categories>
+        <category>read</category>
+      </categories>
+      <tags>
+        <tag>nihongo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1行書くだけ日記</title>
+    <url>/2026/03/ichigyoukakudake/</url>
+    <content><![CDATA[<p><img src="/images/20260331-ichigyoukakudake/51yUvskXwoL._SL500_.jpg" alt="『1行書くだけ日記　やるべきこと、やりたいことが見つかる』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/1行書くだけ日記%E3%80%80やるべきこと、やりたいことが見つかる-オーディオブック/B09DZ5VH3C?qid=1774952863&amp;sr=1-1&amp;ref_pageloadid=not_applicable&amp;pf_rd_p=051ed80d-7075-4d26-8156-6887bfda8699&amp;pf_rd_r=SFYHFNA5EYTX5RD56S75&amp;plink=8lerYUse4OF4GXah&amp;pageLoadId=0DlO4KXzz1hliOJV&amp;creativeId=c268f6e0-1726-4b9a-b0bc-86e06ad44ad2&amp;ref=a_search_c3_lProduct_1_1">1行書くだけ日記　やるべきこと、やりたいことが見つかる</a> </br> 著者：伊藤 羊一 </br> ナレーター：竹内 栄治 </br></p>
+<p>每天就寫一行字，然後從中去思考這件事對自己的意義，並且問為什麼。</p>
+<p>其實類似主題的書其實也接觸了好幾本了，這本並沒有真的特別撼動心靈，但就是好巧不巧地出現在 Audible 的推薦清單中。</p>
+<p>就當作是於宇宙在提醒我要做點事吧。順順地聽完後，也就乖乖地照做，然後打下這篇文字。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
@@ -811,6 +792,25 @@
       </tags>
   </entry>
   <entry>
+    <title>静かに生きて考える　Thinking in Calm Life</title>
+    <url>/2026/04/shizukaniikitekanngaeru/</url>
+    <content><![CDATA[<p><img src="/images/20260404-shizukaniikitekanngaeru/518r+yoTcmL._SL500_.jpg" alt="『静かに生きて考える　Thinking in Calm Life』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/静かに生きて考える%E3%80%80Thinking-in-Calm-Life-オーディオブック/B0D2L2X5QD?eac_link=r1MdPd9CgjQO&amp;ref=web_search_eac_asin_2&amp;eac_selected_type=asin&amp;eac_selected=B0D2L2X5QD&amp;qid=bwYFzRmIRD&amp;eac_id=355-6711369-6607639_bwYFzRmIRD&amp;sr=1-2">静かに生きて考える　Thinking in Calm Life</a> </br> 著者：森 博嗣</br> ナレーター：宮尾 透</br></p>
+<p>本書是作者對於人生、生活周遭一些思考的隨筆集。前陣子看了他的<a href="https://www.amazon.co.jp/新版-お金の減らし方-SB新書-657-森-博嗣/dp/4815626235">《お金の減らし方》</a>，覺得他的想法蠻有意思的，就再多關注一下。</p>
+<p>其中一篇提到以前日本武士在和平時期是不用「工作」的，大部分勞動的人是婦女以及小孩，所以在那個時候的價值觀，對於「有沒有在工作」這件事是中立的。</p>
+<p>稍微查了一下，比較低階的武士們，俸禄微薄，仍然需要兼差賺外快。 日本明治維新時期實施廃藩置県、版籍奉還、秩禄処分後，原先穩定領薪水武士們沒有了穩定收入，紛紛被迫轉行。這讓我想到這些年 AI 浪潮之下，許多原本穩定的工作變得不穩定...</p>
+<p>武士木村安兵衛就<a href="https://qdymag.com/editor-selection/24">轉行開了麵包店</a>「文英堂」以及後來的「<a href="https://www.ginzakimuraya.jp">木村屋</a>」。1875 年 4 月 4 日，木村安兵衛向賞櫻花中的明治天皇奉上「酒種桜あんパン」，獲得「引き続きおさめるように」的讚譽。在 2001 年，由一般社団法人日本記念日協会認定 4 月 4 日，是日本的<a href="https://www.cna.com.tw/topic/newsworld/163/202205310002.aspx#:~:text=%E3%80%8C%E6%96%87%E6%98%8E%E9%96%8B%E5%8C%96%E3%80%8D%E7%9A%84%E6%BB%8B%E5%91%B3%E5%A4%A9%E7%9A%87%E4%B9%9F%E9%9D%92%E7%9D%9E%E7%9A%84%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%202001%E5%B9%B4%EF%BC%8C%E4%B8%80%E8%88%AC%E7%A4%BE%E5%9C%98%E6%B3%95%E4%BA%BA%E6%9A%A8%E6%97%A5%E6%9C%AC%E7%B4%80%E5%BF%B5%E6%97%A5%E5%8D%94%E6%9C%83%E8%AA%8D%E8%AD%894%E6%9C%884%E6%97%A5%E7%82%BA%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%E6%97%A5%EF%BC%8C%E9%80%99%E8%88%87%E6%97%A5%E6%9C%AC%E6%9C%80%E6%9C%89%E5%90%8D%E7%9A%84%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%E5%BA%97%E2%94%80%E6%93%81%E6%9C%89153%E5%B9%B4%E6%AD%B7%E5%8F%B2%E3%80%81%E6%97%A5%E6%9C%AC%E7%AC%AC%E4%B8%80%E5%AE%B6%E9%BA%B5%E5%8C%85%E5%BA%97%E6%9C%A8%E6%9D%91%E5%B1%8B%EF%BC%88%E7%8F%BE%E5%90%8D%E6%9C%A8%E6%9D%91%E5%B1%8B%E7%B8%BD%E6%9C%AC%E5%BA%97%EF%BC%89%E6%9C%89%E9%97%9C%E3%80%82%20%E6%9C%A8%E6%9D%91%E5%B1%8B%E6%98%AF%E5%A4%B1%E6%A5%AD%E6%AD%A6%E5%A3%AB%E6%9C%A8%E6%9D%91%E5%AE%89%E5%85%B5%E8%A1%9B1869%E5%B9%B4%E5%89%B5%E7%AB%8B%E7%9A%84%E9%BA%B5%E5%8C%85%E5%BA%97%EF%BC%8C%E7%95%B6%E6%99%82%E6%97%A5%E6%9C%AC%E6%B0%91%E7%9C%BE%E7%86%B1%E4%B8%AD%E6%96%BC%E6%96%87%E6%98%8E%E9%96%8B%E5%8C%96%EF%BC%8C%E8%A5%BF%E6%B4%8B%E6%96%87%E5%8C%96%E8%A2%AB%E5%A4%A7%E9%87%8F%E5%BC%95%E9%80%B2%E6%97%A5%E6%9C%AC%EF%BC%8C%E5%8C%85%E6%8B%AC%E9%BA%B5%E5%8C%85%E9%80%99%E7%A8%AE%E6%B4%8B%E9%A3%9F%E5%9C%A8%E5%85%A7%E3%80%82%20%E4%B8%8D%E9%81%8E%EF%BC%8C%E7%95%B6%E6%99%82%E4%B8%BB%E6%B5%81%E7%9A%84%E8%A5%BF%E6%B4%8B%E9%BA%B5%E5%8C%85%E4%B8%8D%E4%BC%BC%E7%8F%BE%E5%9C%A8%E8%B3%AA%E5%9C%B0%E9%AC%86%E8%BB%9F%EF%BC%8C%E8%80%8C%E6%98%AF%E8%B3%AA%E5%9C%B0%E8%BC%83%E7%A1%AC%E3%80%81%E6%B0%B4%E5%88%86%E8%BC%83%E5%B0%91%E7%9A%84%E9%BA%B5%E5%8C%85%EF%BC%8C%E5%B0%8D%E4%BB%A5%E7%A8%BB%E7%B1%B3%E6%88%96%E7%8E%84%E7%B1%B3%E7%82%BA%E4%B8%BB%E9%A3%9F%E7%9A%84%E6%97%A5%E6%9C%AC%E4%BA%BA%E8%80%8C%E8%A8%80%EF%BC%8C%E4%B8%A6%E4%B8%8D%E6%98%AF%E9%82%A3%E9%BA%BC%E5%8F%97%E6%AD%A1%E8%BF%8E%E3%80%82%20%E6%9C%A8%E6%9D%91%E5%AE%89%E5%85%B5%E8%A1%9B%E8%88%87%E6%AC%A1%E5%AD%90%E8%8B%B1%E4%B8%89%E9%83%8E%E7%B6%93%E9%81%8E%E5%8F%8D%E8%A6%86%E5%98%97%E8%A9%A6%E6%94%B9%E8%89%AF%EF%BC%8C%E6%83%B3%E5%88%B0%E6%97%A5%E6%9C%AC%E4%BA%BA%E6%84%9B%E5%90%83%E7%9A%84%E3%80%8C%E9%85%92%E9%A5%85%E9%A0%AD%E3%80%8D%EF%BC%8C%E6%96%BC%E6%98%AF%E5%88%A9%E7%94%A8%E9%80%99%E6%AC%BE%E7%94%9C%E9%BB%9E%E7%9A%84%E9%85%92%E7%A8%AE%EF%BC%88%E4%BB%A5%E7%B1%B3%E9%A3%AF%E5%8F%8A%E9%BA%B4%E8%A3%BD%E9%80%A0%E7%9A%84%E9%85%B5%E6%AF%8D%EF%BC%89%E8%A3%BD%E4%BD%9C%E3%80%82%201875%E5%B9%B43%E6%9C%88%EF%BC%8C%E6%9C%A8%E6%9D%91%E5%AE%89%E5%85%B5%E8%A1%9B%E8%88%87%E7%AC%AC%E4%BA%8C%E4%BB%A3%E7%95%B6%E5%AE%B6%E8%8B%B1%E4%B8%89%E9%83%8E%EF%BC%8C%E4%BB%A5%E5%8F%8A%E5%BE%8C%E4%BE%86%E6%88%90%E7%82%BA%E7%AC%AC%E4%B8%89%E4%BB%A3%E7%95%B6%E5%AE%B6%E7%9A%84%E5%84%80%E5%9B%9B%E9%83%8E%E7%A0%94%E7%99%BC%E5%87%BA%E3%80%8C%E9%85%92%E7%A8%AE%E9%BA%B5%E5%8C%85%E3%80%8D%EF%BC%8C%E5%89%B5%E9%80%A0%E5%87%BA%E6%97%A5%E6%9C%AC%E4%BA%BA%E5%96%9C%E6%84%9B%E7%9A%84%E9%AC%86%E8%BB%9F%E8%B3%AA%E5%9C%B0%E3%80%81%E5%85%A7%E9%A4%A1%E5%8C%85%E8%91%97%E7%B4%85%E8%B1%86%EF%BC%8C%E5%86%8D%E4%BB%A5%E9%86%83%E6%BC%AC%E6%AB%BB%E8%8A%B1%E8%A3%9D%E9%A3%BE%E7%9A%84%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%E3%80%82%20%E9%80%99%E7%A8%AE%E8%9E%8D%E5%90%88%E8%A5%BF%E6%B4%8B%E9%BA%B5%E5%8C%85%E6%96%87%E5%8C%96%E8%88%87%E5%92%8C%E8%8F%93%E5%AD%90%E6%96%87%E5%8C%96%E7%9A%84%E9%BA%B5%E5%8C%85%EF%BC%8C%E7%B5%A6%E4%BA%BA%E4%B8%80%E7%A8%AE%E6%96%87%E6%98%8E%E9%96%8B%E5%8C%96%E7%9A%84%E5%8D%B0%E8%B1%A1%E3%80%82%201875%E5%B9%B44%E6%9C%884%E6%97%A5%EF%BC%8C%E6%9C%A8%E6%9D%91%E5%AE%89%E5%85%B5%E8%A1%9B%E9%80%8F%E9%81%8E%E5%8F%8B%E4%BA%BA%E5%B1%B1%E5%B2%A1%E9%90%B5%E8%88%9F%E7%9A%84%E7%89%BD%E7%B7%9A%EF%BC%8C%E5%B0%87%E7%B4%85%E8%B1%86%E9%BA%B5%E5%8C%85%E7%8D%BB%E7%B5%A6%E5%88%B0%E6%9D%B1%E4%BA%AC%E5%90%91%E5%B3%B6%E8%B3%9E%E6%AB%BB%E7%9A%84%E6%98%8E%E6%B2%BB%E5%A4%A9%E7%9A%87%E4%BC%89%E5%84%B7%E5%93%81%E5%98%97%EF%BC%8C%E5%A4%A7%E7%8D%B2%E8%AE%9A%E8%B3%9E%E3%80%82%20%E6%9C%A8%E6%9D%91%E5%B1%8B%E7%AC%AC%E4%B8%89%E4%BB%A3%E7%95%B6%E5%AE%B6%E6%9C%A8%E6%9D%91%E5%84%80%E5%9B%9B%">紅豆麵包日</a>。</p>
+<p>也正好就是今天！</p>
+]]></content>
+      <categories>
+        <category>audiobook</category>
+      </categories>
+      <tags>
+        <tag>nihongo</tag>
+        <tag>audible</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>転生したらスライムだった件 1</title>
     <url>/2026/04/tensura1/</url>
     <content><![CDATA[<p><img src="/images/20260415-tensura1/51YGWLZkhUL._SL500_.jpg" alt="『[1巻] 転生したらスライムだった件 1』のカバーアート" style="zoom:50%;" /></p>
@@ -818,6 +818,23 @@
 <p>蠻喜歡的轉生劇情動漫「關於我轉生變成史萊姆這檔事」的小說，由動漫主角利姆路的聲優擔當有聲書的配音。</p>
 <p>雖然劇情大部分都是從「形容對手看似強大，沒想到己方更強大」這樣的落差中產生張力，能夠泛化出這麼多劇情，實在是佩服作者。</p>
 <p>應該會繼續聽下去吧（不過有些擔心會有太多人名、地名就是了....）</p>
+]]></content>
+      <categories>
+        <category>audiobook</category>
+      </categories>
+      <tags>
+        <tag>nihongo</tag>
+        <tag>audible</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>派遣社員あすみの家計簿 1</title>
+    <url>/2026/04/hakensyainnasuminokakeibo1/</url>
+    <content><![CDATA[<p><img src="/images/20260422-hakensyainnasuminokakeibo1/51For8KpxxL._SL500_.jpg" alt="『派遣社員あすみの家計簿』のカバーアート" style="zoom:50%;" /></p>
+<p><a href="https://www.audible.co.jp/pd/派遣社員あすみの家計簿-オーディオブック/B0D9K3SVZG">派遣社員あすみの家計簿</a> </br> 著者：青木 祐子 </br> ナレーター：本多 真梨子 </br></p>
+<p>這本書很有趣，會一直想知道接下來會發生什麼事，也能被主角的遭遇以及思考模式所共感，並想想如果是自己的話會怎麼做。難怪亞馬遜上有讀者評價這本書帶有「認知行動治療」的功效。</p>
+<p>聲優的演出也很精彩。</p>
+<p>目前日文能力聽工具書比較沒有太大問題，而聽小說就仍然有些吃力。剛好 iOS 26.4 推出了 <a href="https://support.apple.com/guide/iphone/get-live-captions-of-spoken-audio-iphe0990f7bb/ios">Live Captions</a> 的功能，能聽取目前的音訊，顯示逐字稿，非常方便！正確率大概 90% 以上吧。</p>
 ]]></content>
       <categories>
         <category>audiobook</category>
